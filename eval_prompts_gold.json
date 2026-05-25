@@ -1,0 +1,352 @@
+[
+  {
+    "id": "P001",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Bhai weekend pe Bangalore mein kya karein?",
+    "intent": "Asking for weekend activity recommendations in Bangalore"
+  },
+  {
+    "id": "P002",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Chalo let's go to eat lunch, shaam hone wali hai?",
+    "intent": "Asking for going to eat lunch, because its going to be evening soon"
+  },
+  {
+    "id": "P003",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Mai walk karne aaya because I ate bahut saara",
+    "intent": "Telling that I came for walk because I ate so much"
+  },
+  {
+    "id": "P004",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Movie kaisi lagi, did you enjoy it?",
+    "intent": "Asking how was the movie"
+  },
+  {
+    "id": "P005",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Aaj breakfast mai kya banega, anda bread ya poha?",
+    "intent": "Asking what to make for breakfast"
+  },
+  {
+    "id": "P006",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Bro tum phone nhi utha rahe, what happened sab theek?",
+    "intent": "Asking why he/she not picking up the phone"
+  },
+  {
+    "id": "P007",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Weekend par kya kiya? IPL ka match dekha it was mindblowing",
+    "intent": "Asking about what someone did for weekend if they watched IPL match or not"
+  },
+  {
+    "id": "P008",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Office ke baad I'm thinking to go to swim, tum bhi chaloge kya",
+    "intent": "Asking about if other person will joing for swimming after office"
+  },
+  {
+    "id": "P009",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Aaj pta hai subah kya hua? Mai office jaa rhi thi raaste mai kiska accident ho gya",
+    "intent": "Telling someone that while going to office someone had an accident"
+  },
+  {
+    "id": "P010",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Mujhe time hi nhi milta hai kuch aur karne ka. I feel so stuck.",
+    "intent": "Telling someone that he/she doesn't have any time to do anything else, they feel frustrated"
+  },
+  {
+    "id": "P011",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Mera Flipkart order delay ho gaya, refund kaise milega?",
+    "intent": "Asking for flipkart order refund as it was delayed"
+  },
+  {
+    "id": "P012",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yaar Swiggy wala galat order le aaya, kya karu?",
+    "intent": "Swiggy person brought wrong order what to do?"
+  },
+  {
+    "id": "P013",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Mera phone charge nhi ho rha, bahut inconvenience ho rha hai kya karu?",
+    "intent": "Mobile phone charging complain"
+  },
+  {
+    "id": "P014",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yeh food item mai leakage gai, sara gir gya packet mai refund chahiye",
+    "intent": "Food packaging issue related query"
+  },
+  {
+    "id": "P015",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yaar mera order nhi aaya abhi tak, 2 ghanta ho gya. I want to cancel it",
+    "intent": "Order delivery related issue"
+  },
+  {
+    "id": "P016",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yeh kya ho gya hai mere order item ko, chal nhi rha complain karni hai",
+    "intent": "Order not working complain issue"
+  },
+  {
+    "id": "P017",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Tum meri baat owner se karwao mujhe refund nhi mila abhi tak",
+    "intent": "Order refund related issue"
+  },
+  {
+    "id": "P018",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yaar yeh wrong item deliver hua hai isko replace karna hai",
+    "intent": "wrong item replacement query."
+  },
+  {
+    "id": "P019",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Namaste, mujhe device return ke liye ticket raise karwana hai, help chahiye.",
+    "intent": "Item replacement query"
+  },
+  {
+    "id": "P020",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yeh notifications nhi aa rhi device par uske liye kya karu?",
+    "intent": "notifications related issue"
+  },
+  {
+    "id": "P021",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Mujhe delhi se mumbai jana hai, kaise jau bus se ya flight se?",
+    "intent": "how to travel from Delhi to Mumnbai"
+  },
+  {
+    "id": "P022",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Bhaiya yeh apple kitne mai diya?",
+    "intent": "Asking apple cost"
+  },
+  {
+    "id": "P023",
+    "category": "question",
+    "script": "roman",
+    "prompt": "5000 ki SIP karna hai monthly, koi achi mutual fund bata?",
+    "intent": "Asking about best mutual fund for 5k SIP"
+  },
+  {
+    "id": "P024",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Bhai 10th ke baad commerce lu ya science? Confused hu.",
+    "intent": "Asking about which stream to choose after 10th standard"
+  },
+  {
+    "id": "P025",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Bhai aaj khelne chalega kya Badmintion raat mein?",
+    "intent": "Asking about whether he will come to play badminton at night"
+  },
+  {
+    "id": "P026",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Bhai konsi job mai sabse jyada paisa hai abhi?",
+    "intent": "Asking which job has max salary"
+  },
+  {
+    "id": "P027",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Tumhe kya kya banana aata hai khaane mai for lunch?",
+    "intent": "Asking about what he/she knows to cook"
+  },
+  {
+    "id": "P028",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Kya tumko pta hai chutti kab hai next?",
+    "intent": "Asking about when is the next holiday"
+  },
+  {
+    "id": "P029",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Kya lagta hai ki wo kal aa paayegi, uski doctor's appointment hai na?",
+    "intent": "Asking if she will come tomorrow as she has doctor's appointment"
+  },
+  {
+    "id": "P030",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Yaar yeh kya ho gya phone mai tumko pta hai kya?",
+    "intent": "Asking if he can help with his phone"
+  },
+  {
+    "id": "P031",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "मेरा wifi bahut slow chal रहा है, router restart karna पड़ेगा kya?",
+    "intent": "Asking how to start router"
+  },
+  {
+    "id": "P032",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Kal se cold हो रहा है, par office jana zaroori hai kya?",
+    "intent": "Asking if its important to go to office tomorrow"
+  },
+  {
+    "id": "P033",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Flight ticket confirm नहीं हुआ, refund kab tak आएगा?",
+    "intent": "Asking about refund as flight ticket isn't confirmed"
+  },
+  {
+    "id": "P034",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "water bill ज्यादा आया है इस month, complaint kaise raise karu?",
+    "intent": "Asking how to complain about high water bill"
+  },
+  {
+    "id": "P035",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Gym join करना है but muscle gain ke liye कौन सा plan best रहेगा?", 
+    "intent": "Asking which gym plan is best for muscle gain"
+  },
+  {
+    "id": "P036",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Phone ki battery जल्दी drain हो रही है, service center jana पड़ेगा kya?", 
+    "intent": "Asking if they need to go service centre because phone battery is draining fast"
+  },
+  {
+    "id": "P037",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Bank account me salary credit नहीं हुई अभी तक, check kar सकते हो?", 
+    "intent": "Asking how to check whether salary is credited"
+  },
+  {
+    "id": "P038",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Mujhe passport renew karwana hai, documents कौन कौन से lagenge?", 
+    "intent": "Asking what documents are required to get passport renewed"
+  },
+  {
+    "id": "P039",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Laptop hang हो रहा है while coding, RAM upgrade karna useful होगा?", 
+    "intent": "Asking about whether to update RAM or not"
+  },
+  {
+    "id": "P040",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Mom ko sugar hai, diet me meetha कम करना चाहिए kya?", 
+    "intent": "Asking about whether reduce sugar in mom's diet"
+  },
+  {
+    "id": "P041",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ye review padh ke bata: 'Phone bilkul bakwaas, paisa waste'. Sentiment kya hai?",
+    "intent": "Asking about sentiment of the statement"
+  },
+  {
+    "id": "P042",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'Mujhe ek laptop khareedna hai mera budget 70k hai'",
+    "intent": "Asking about the intent of the statement"
+  },
+  {
+    "id": "P043",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'Aaj account mai kitne paise aaye batao'",
+    "intent": "Asking about the intent of the statement"
+  },
+  {
+    "id": "P044",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ye review padh ke bata: 'Saree rang chodhti hai, aur material bhi aacha nhi hai'. Sentiment kya hai?",
+    "intent": "Asking about sentiment of the statement"
+  },
+  { 
+    "id": "P045",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ye review padh ke bata: 'yeh bahut aacha kaam karta hai discharge bhi nhi hota jaldi'. Sentiment kya hai?",
+    "intent": "Asking about sentiment of the statement"
+  },
+  {
+    "id": "P046",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'Aaj ki bollywood news kya hai'",
+    "intent": "Asking about the intent of the statement"
+  },
+  {
+    "id": "P047",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'kya mujhe ghee khareedna chahiye ya butter'",
+    "intent": "Asking about the intent of the statement"
+  },
+  {
+    "id": "P048",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'aaj ka mausam kharab lag rha hai, baarish ki koi khabar hai'",
+    "intent": "Asking about the intent of the statement"
+  },
+  {
+    "id": "P049",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'konsi city better hai rehne ke liye mumbai delhi ya fir bangalore'",
+    "intent": "Asking about the intent of the statement"
+  },
+  {
+    "id": "P049",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'yeh aacha gaana nhi hai please isko change kardo'",
+    "intent": "Asking about the intent of the statement"
+  }
+]
