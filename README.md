@@ -1,42 +1,130 @@
 # Hinglish-Assistant
 
-A small open-source LLM fine-tuned for Hinglish — the code-mixed Hindi-English register used by hundreds of millions of Indians. The project has two halves: (1) QLoRA fine-tuning of Qwen2.5-3B on a curated Hinglish instruction dataset, and (2) production-grade serving with vLLM, AWQ quantization, and prefix caching.
+Fine-tuned Qwen2.5-3B for natural code-mixed Hindi-English (Hinglish) conversation. Matches GPT-4o-mini on Hinglish register quality at <1/30th serving cost.
 
-## Thesis
+🤗 **Model:** [DSMJ910/qwen2.5-3b-hinglish-lora](https://huggingface.co/DSMJ910/qwen2.5-3b-hinglish-lora)  
+🤗 **Dataset:** [DSMJ910/hinglish-instruct-10k](https://huggingface.co/datasets/DSMJ910/hinglish-instruct-10k)
 
-Frontier LLMs handle pure Hindi reasonably well but underperform on code-mixed Hinglish, especially on conversational generation. A 3B-parameter open model, instruction-tuned on Hinglish data, can match GPT-4o-mini on Hinglish conversational quality while being ~30× cheaper to serve.
+## Headline results
 
-## Status
+### Automated metrics (50-prompt Hinglish eval set)
 
-🚧 In development — Week 1 of 8. Currently: baseline gap analysis.
+| Model | Hinglish marker density | English drift | Devanagari injection |
+|---|---|---|---|
+| Qwen2.5-3B base | 8.9% | 32% | 12.5% |
+| GPT-4o-mini | 29.5% | 0% | 0% |
+| GPT-4o | 24.6% | 4% | 2.5% |
+| **Fine-tuned Qwen-3B** | **31.6%** | **0%** | **0%** |
 
-## Structure
+### LLM-as-Judge (Claude Sonnet 4.6, breaks circularity since training data came from GPT-4o-mini)
 
-- `notebooks/` — exploration, training, and evaluation notebooks
-- `src/` — reusable training and eval code
-- `data/` — dataset preparation scripts (raw data not committed)
-- `notes/` — design notes and observations
+| Model | Register | Intent | Quality | Culture | Total /20 |
+|---|---|---|---|---|---|
+| Qwen2.5-3B base | 1.24 | 2.04 | 1.72 | 1.72 | 6.72 |
+| GPT-4o | 2.12 | 4.10 | 3.72 | 2.96 | 12.90 |
+| GPT-4o-mini | 2.50 | 4.26 | 3.84 | 2.96 | 13.56 |
+| **Fine-tuned Qwen-3B** | **3.98** | 2.81 | 2.39 | 3.31 | 12.48 |
 
-## Setup
+**Bottom line:** Wins on register (3.98 vs 2.50), trails on content quality (2.39 vs 3.84). Optimal for style-sensitive conversational use cases.
 
-```bash
-git clone https://github.com/muskanjaiswal/hinglish-assistant.git
-cd hinglish-assistant
-python3.10 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env  # fill in your keys
+## How it was built
+
+### Week 1: Baseline measurement
+Hand-curated 50 Hinglish prompts, scored Qwen-base / GPT-4o-mini / GPT-4o by hand. Identified a 12-point gap on a 20-point rubric.
+
+### Week 2: Synthetic dataset generation
+- 10,594 Hinglish instruction examples generated via GPT-4o-mini
+- 4 categories: casual, customer support, Q&A, sentiment classification
+- 20 personas × 90 scenarios × 12 stylistic hints for diversity
+- 97.7% survival after deduplication and quality filters
+- See [`notes/week2_dataset_decisions.md`](notes/week2_dataset_decisions.md) for provider selection methodology
+
+### Week 3: QLoRA fine-tuning
+- LoRA rank=16, alpha=32, all linear layers (~30M trainable params, ~1% of base)
+- 2 epochs, lr=2e-4, batch size 16, bf16, AdamW-8bit
+- 9.2 minutes on a Blackwell-class GPU
+- Final training loss: 0.95
+- See [`notes/week3_day2_eval_result.md`](notes/week3_day2_eval_result.md) for full details
+
+### Week 4: Evaluation
+- Automated metrics: Hinglish marker density, English drift, Devanagari injection
+- LLM-as-judge with Claude Sonnet 4.6 (chosen to avoid circularity with GPT-4o-mini-generated training data)
+- See [`notes/week3_day4_llm_judge_result.md`](notes/week3_day4_llm_judge_result.md) for full methodology
+
+## How to use
+
+```python
+from peft import PeftModel
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+base = AutoModelForCausalLM.from_pretrained(
+    "Qwen/Qwen2.5-3B-Instruct", torch_dtype="auto", device_map="auto"
+)
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-3B-Instruct")
+model = PeftModel.from_pretrained(base, "DSMJ910/qwen2.5-3b-hinglish-lora")
+
+messages = [{"role": "user", "content": "Bhai weekend pe Bangalore mein kya karein?"}]
+inputs = tokenizer.apply_chat_template(messages, return_tensors="pt", add_generation_prompt=True).to("cuda")
+outputs = model.generate(inputs, max_new_tokens=300, do_sample=True, temperature=0.7)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ```
 
-## Roadmap
+## Known limitations
 
-- [x] Week 1: Baseline gap analysis on Qwen2.5-3B, GPT-4o-mini, GPT-4o
-- [ ] Week 2: Dataset construction (COMI-LINGUA + GLUECoS + synthesized instructions)
+1. **Roman script only.** Training data is 100% Roman Hinglish; mixed-script (Devanagari) handling is not robust.
+2. **Conversational defaults.** Model sometimes treats classification tasks as conversation, reducing precision on intent/sentiment tasks.
+3. **Synthetic training data.** All training examples generated by GPT-4o-mini; some stylistic biases inherited from the generator.
+4. **Small eval set.** N=50 prompts; larger eval would tighten confidence intervals.
+
+## Repository structureLINGUA + GLUECoS + synthesized instructions)
 - [ ] Week 3-4: QLoRA fine-tuning + ablations
 - [ ] Week 5-6: vLLM serving + AWQ quantization + benchmarks
 - [ ] Week 7: Live demo on HuggingFace Spaces
 - [ ] Week 8: Blog post + final polish
 
 ## License
+data/               Datasets and eval outputs
 
-MIT
+├─ eval_prompts_gold.json          (50 hand-curated Hinglish prompts)
+
+├─ baseline_outputs.json           (Week 1: Qwen-base/GPT-4o-mini/GPT-4o outputs)
+
+├─ baseline_scored.json            (Week 1: hand-scored)
+
+├─ hinglish_synthetic_v1_clean.jsonl  (10,594 training examples)
+
+├─ finetuned_outputs.json          (Week 3: fine-tune's 50 outputs)
+
+└─ llm_judge_results.json          (Week 3: Claude Sonnet judgments)
+notes/              Decision logs and milestones
+
+├─ PROJECT_BRIEF.md
+
+├─ day3_automated_diagnostic.md    (Week 1 baseline analysis)
+
+├─ day4_hand_scoring.md            (Week 1 hand scoring)
+
+├─ week2_dataset_decisions.md      (Generator/provider selection)
+
+├─ week3_day1_sanity_milestone.md  (Training pipeline verification)
+
+├─ week3_day2_eval_result.md       (Training + automated eval)
+
+└─ week3_day4_llm_judge_result.md  (LLM-as-judge eval)
+## Coming soon
+
+- vLLM serving setup and throughput benchmarks
+- Detailed cost comparison vs GPT-4o-mini at scale
+- HuggingFace Spaces live demo
+- Technical blog post
+
+## Citation
+
+```bibtex
+@misc{hinglish-qwen-3b-2026,
+  title={Hinglish-Assistant: QLoRA Fine-tuning Qwen2.5-3B for Indian Code-Mixed Conversation},
+  author={Muskan Jaiswal},
+  year={2026},
+  url={https://github.com/Muskan910/hinglish-assistant}
+}
+```
