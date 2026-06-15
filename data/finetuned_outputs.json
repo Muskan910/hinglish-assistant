@@ -1,0 +1,402 @@
+[
+  {
+    "id": "P001",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Bhai weekend pe Bangalore mein kya karein?",
+    "intent": "Asking for weekend activity recommendations in Bangalore",
+    "qwen_3b_finetuned": "Yaar, weekend toh chill karne ka best time hai! Koi hill station jaana hai ya phir Nandi Hills chalein? Wahan sunrise dekhne ka maza hi alag hai. Aur agar shopping karna hai toh Toit Mall bhi achha option hai. Thoda relax karke kuch tasty biryani bhi le lenge, kya bolta hai?"
+  },
+  {
+    "id": "P002",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Chalo let's go to eat lunch, shaam hone wali hai?",
+    "intent": "Asking for going to eat lunch, because its going to be evening soon",
+    "qwen_3b_finetuned": "Bhai, bilkul! Kahan jaana hai? Koi naya restaurant try karna hai ya phir woh local tandoor ke paas wale wale khane wale banate hain? Mera toh thoda hungry ho gaya hai, bas kuch biryani chahiye. Tumhe kya pasand hai?"
+  },
+  {
+    "id": "P003",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Mai walk karne aaya because I ate bahut saara",
+    "intent": "Telling that I came for walk because I ate so much",
+    "qwen_3b_finetuned": "Arey yaar, kya khush rehna hai! Agar tujhe ghar pe hi chill karna hai, toh thoda relax kar le. Lekin agar koi fresh air chahiye toh walk accha rahega. Pune mein toh bahut saari jagah hain jahan ja sakta hai, like Nandi Hills ya Chikmagalur. Tera health bhi important hai, boss!"
+  },
+  {
+    "id": "P004",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Movie kaisi lagi, did you enjoy it?",
+    "intent": "Asking how was the movie",
+    "qwen_3b_finetuned": "Yaar, movie kaafi zabardast thi! Story aur acting dono hi killer the. Kya pata, koi aur bhi accha film dekhne layak hai. Tumhe kaunsa scene sabse zyada pasand aaya?"
+  },
+  {
+    "id": "P005",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Aaj breakfast mai kya banega, anda bread ya poha?",
+    "intent": "Asking what to make for breakfast",
+    "qwen_3b_finetuned": "Bhai, dono hi achhe hain! Agar tu thoda light chah raha hai toh poha try kar. Lekin agar tu protein chahiye toh bread better hai. Aur haan, ek glass doodh bhi lele, sabko pasand aayega. Kya bolta hai?"
+  },
+  {
+    "id": "P006",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Bro tum phone nhi utha rahe, what happened sab theek?",
+    "intent": "Asking why he/she not picking up the phone",
+    "qwen_3b_finetuned": "Haan yaar, mujhe bhi samajh nahi aa raha kya hua. Tumne kab se dekha hai ki phone repair karne ka? Kabhi kabhi battery ya hardware mein problem hoti hai. Tum Flipkart pe check kar sakte ho, wahan pe repair services bhi available hain. Agar zarurat ho toh unko call karke pooch lena. Aur haan, kuch time baad agar phone chalu nahi hota toh main aur help karne ke liye ready hoon!"
+  },
+  {
+    "id": "P007",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Weekend par kya kiya? IPL ka match dekha it was mindblowing",
+    "intent": "Asking about what someone did for weekend if they watched IPL match or not",
+    "qwen_3b_finetuned": "Haan yaar, maine bhi dekha! Chennai Super Kings ka performance toh zabardast tha na? Kahan jaane ka plan hai aaj kal? Koi naya stadium try karne ka soch raha hai? Aur kya pata, phir se woh final bhi mil jaye!"
+  },
+  {
+    "id": "P008",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Office ke baad I'm thinking to go to swim, tum bhi chaloge kya",
+    "intent": "Asking about if other person will joing for swimming after office",
+    "qwen_3b_finetuned": "Haan yaar, swimming toh ekdum chill hai na! Aur weekend pe toh bahut saare log water pool mein hote hain. Thoda relax bhi ho jayega aur body bhi workout hoga. Tumhe kaisa lagta hai? Kya tumne koi acchi pool check ki hai na? Chalo milke chalte hain, thoda fun bhi hoga na!"
+  },
+  {
+    "id": "P009",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Aaj pta hai subah kya hua? Mai office jaa rhi thi raaste mai kiska accident ho gya",
+    "intent": "Telling someone that while going to office someone had an accident",
+    "qwen_3b_finetuned": "Arre yaar, mujhe bhi pata nahi! Waise, kabhi kabhi traffic mein toh aise accidents hote hain. Tumhare liye kaunsa raasta tha office se? Kya tumne koi alternate route dekha? Agar kuch aur problem hai, toh main madad kar sakta hoon. Tumhe pata hai, chhod na, sab theek hoga."
+  },
+  {
+    "id": "P010",
+    "category": "casual",
+    "script": "roman",
+    "prompt": "Mujhe time hi nhi milta hai kuch aur karne ka. I feel so stuck.",
+    "intent": "Telling someone that he/she doesn't have any time to do anything else, they feel frustrated",
+    "qwen_3b_finetuned": "Bhai, samajh sakta hoon kitna frustrating hota hai yeh. Kabhi kabhi life mein break lena zaroori hota hai. Tumhe kya karna hai? Thoda chill karne ki soch, ya phir koi hobby pursue kar sakte ho, jaise gardening ya painting. Kuch naya try karne se tumhe fresh perspective milega. Aur agar kuch specific hai jo tumhe pasand hai, toh uske liye bhi plan karo. Life mein thoda change mat chukao, yaar!"
+  },
+  {
+    "id": "P011",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Mera Flipkart order delay ho gaya, refund kaise milega?",
+    "intent": "Asking for flipkart order refund as it was delayed",
+    "qwen_3b_finetuned": "Achha, pehle to tu Flipkart app khol le ya website par jaa. Wahan 'My Orders' section mein jaake apne order pe click kar. Wahan tujhe 'Return/Refund' ka option milega. Uspe click karke, reason select kar le aur phir submit kar de. Phir thoda wait karna padega, lekin usually 7-10 din mein refund aa jata hai. Agar koi dikkat ho, to customer support se bhi baat kar sakta hai. Hope yeh help kare!"
+  },
+  {
+    "id": "P012",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yaar Swiggy wala galat order le aaya, kya karu?",
+    "intent": "Swiggy person brought wrong order what to do?",
+    "qwen_3b_finetuned": "Arre bhai, pehle toh tu Swiggy app khol. Wahan 'Order History' mein jaa, aur jo order hai uspe click kar. Uske baad 'Report Issue' ka option milega, uspe tap kar de. Wahan tujhe galat item ke liye complaint daalna padega. Agar tujhe refund ya replacement chahiye, toh unka customer support number bhi mil jayega. Koi tension nahi, sab theek ho jayega!"
+  },
+  {
+    "id": "P013",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Mera phone charge nhi ho rha, bahut inconvenience ho rha hai kya karu?",
+    "intent": "Mobile phone charging complain",
+    "qwen_3b_finetuned": "Arre yaar, pehle to check kar le ki battery sahi se charged hai ya nahi. Agar charge hai par phone mein battery drain ho gayi hai, to thoda time leke use karke dekh. Kabhi kabhi apps background mein chalta rahe jaate hain, unko bhi close kar de. Agar phir bhi nahi ho raha, to phone ko reset karne ka option dekh le. Lekin warna, kisi reliable repair shop par le jaa ke check karwa le, kyunki kabhi kabhi internal issues hote hain. Thoda patience rakho, sab theek ho jayega!"
+  },
+  {
+    "id": "P014",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yeh food item mai leakage gai, sara gir gya packet mai refund chahiye",
+    "intent": "Food packaging issue related query",
+    "qwen_3b_finetuned": "Arre yaar, pehli baat toh yeh ki ye quality issue hai. Tumhe koi proof ya photo lekar unhe complain karne ka option milega. Unka customer service number bhi hoga app mein. Apna order ID ready rakhna, aur unhe details batao ki kitne items se leakage ho gayi hai. Refund ke liye thoda time lag sakta hai, par jaldi karo toh sab kuch theek ho jayega. Acha, mujhe bhi dekh lo, kabhi kabhi delivery mein bhi aisa hota hai. Agar koi aur madad chahiye ho, bata dena!"
+  },
+  {
+    "id": "P015",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yaar mera order nhi aaya abhi tak, 2 ghanta ho gya. I want to cancel it",
+    "intent": "Order delivery related issue",
+    "qwen_3b_finetuned": "Arre yaar, samajh gaya. Kabhi kabhi delivery mein late hone kaafi reasons hota hai. Tum Zomato ya Flipkart ki app khol ke order history mein jao. Wahan tumhe 'cancel order' ka option milega. Bas usko select karo aur confirm karna mat bhoolna. Agar kuch issue aaye to customer support se bhi baat kar sakte ho. Woh log help kar denge."
+  },
+  {
+    "id": "P016",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yeh kya ho gya hai mere order item ko, chal nhi rha complain karni hai",
+    "intent": "Order not working complain issue",
+    "qwen_3b_finetuned": "Bhai, yeh toh badi pareshani hai. Pehle toh, unki customer support number ya app mein jaake complaint register kar le. Wahan pe tujhe option milega ki tu apna order number daal ke report kar sakta hai. Agar tujhe photo ya video bhi chahiye toh woh bhi upload kar sakta hai. Kabhi kabhi thoda patience rakho, kyunki wo process thoda time le sakte hain. Agar koi issue aa raha hai toh mujhe bata na, main madad kar dunga!"
+  },
+  {
+    "id": "P017",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Tum meri baat owner se karwao mujhe refund nhi mila abhi tak",
+    "intent": "Order refund related issue",
+    "qwen_3b_finetuned": "Arre yaar, samajh gaya! Pehle toh, tumhe apne order ka confirmation email check karna chahiye. Wahan tumhe refund ka status dikhai dega. Agar woh kuch nahi dikh raha, toh customer support ko call karke pooch lo. Unka number website pe hota hai. Kabhi kabhi wo thoda time le jaate hain refund process mein. Thoda patience rakho, sab theek ho jayega. Aur agar koi aur help chahiye toh bata dena!"
+  },
+  {
+    "id": "P018",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yaar yeh wrong item deliver hua hai isko replace karna hai",
+    "intent": "wrong item replacement query.",
+    "qwen_3b_finetuned": "Arre bhai, samajh gaya! Pehle toh tumhe unki customer support ko call karna padega ya phir app pe complaint daalna padega. Unka return policy dekh lo, kabhi-kabhi woh 7-10 din ke andar hi replacement offer karte hain. Apne order details ready rakhna, jaise order ID aur photos agar koi issue ho toh. Phir unse poochho, unki taraf se kuch help mil jayegi. Agar nahi hota toh thoda patience rakho, wo log refund bhi kar sakte hain agar zarurat ho toh. Tumhe kya specific item kiya tha?"
+  },
+  {
+    "id": "P019",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Namaste, mujhe device return ke liye ticket raise karwana hai, help chahiye.",
+    "intent": "Item replacement query",
+    "qwen_3b_finetuned": "Koi tension nahi yaar! Pehle toh, apne order ki details check karo, jaise delivery ka date aur address. Fir, Flipkart app khol ke 'My Orders' section mein jaakar us order par click karo. Wahan tumhe 'Return' ka option milega. Uspe click karke, reason select karna padega. Phir, instructions follow karke return request submit kar do. Agar kuch dikkat aaye, toh customer support se bhi baat kar sakte ho. Easy hai na? Sab theek ho jayega!"
+  },
+  {
+    "id": "P020",
+    "category": "customer support",
+    "script": "roman",
+    "prompt": "Yeh notifications nhi aa rhi device par uske liye kya karu?",
+    "intent": "notifications related issue",
+    "qwen_3b_finetuned": "Arre yaar, kabhi kabhi aisa hota hai ki notifications chhod jati hain. Pehle toh check kar le apne phone ki battery charge hai ya nahi. Agar charge theek hai toh phone ko restart karke dekh, shayad wo issue solve ho jaye. Agar phir bhi nahi aata, toh settings mein jaake app updates check kar. Kabhi kabhi apps ko update karna bhi help karta hai. Aur agar abhi bhi problem ho rahi hai, toh kisi reliable repair shop se check karwa le, kuch hardware issue ho sakta hai."
+  },
+  {
+    "id": "P021",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Mujhe delhi se mumbai jana hai, kaise jau bus se ya flight se?",
+    "intent": "how to travel from Delhi to Mumnbai",
+    "qwen_3b_finetuned": "Bhai, flight toh better hoga, kyunki thoda time save ho jaega aur traffic se bacha ja sakte ho. Agar tu auto ya cab bhi le sakta hai, toh woh bhi achha option hai. Aur haan, flight bookings pe dekh le, kabhi kabhi offers milte hain. Jaldi kar yaar, kuch din ka plan kar le!"
+  },
+  {
+    "id": "P022",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Bhaiya yeh apple kitne mai diya?",
+    "intent": "Asking apple cost",
+    "qwen_3b_finetuned": "Yaar, maine toh dekha tha ki itna sa hai na? Lekin mujhe lagta hai ki woh thoda overpriced hai. Tumhe kya lagta hai? Kya tumne kisi aur bhi compare kiya hai? Koi achha deal mila toh batao, main dekh leta hoon!"
+  },
+  {
+    "id": "P023",
+    "category": "question",
+    "script": "roman",
+    "prompt": "5000 ki SIP karna hai monthly, koi achi mutual fund bata?",
+    "intent": "Asking about best mutual fund for 5k SIP",
+    "qwen_3b_finetuned": "Bhai, SIP shuru karna achha hai! Tum equity funds mein invest kar sakte ho, jaise HDFC Equity ya Axis Bluechip. Ye funds historically kaafi stable rehte hain aur achhe returns dete hain. Lekin pehle apne risk appetite ke hisaab se ek financial advisor se consult karo, kyunki tumhare investment goals ko samajhna zaruri hai. Aur haan, thoda research karna mat bhoolna, Zerodha ya Groww jaisa app use karke track kar sakte ho. Best of luck, boss!"
+  },
+  {
+    "id": "P024",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Bhai 10th ke baad commerce lu ya science? Confused hu.",
+    "intent": "Asking about which stream to choose after 10th standard",
+    "qwen_3b_finetuned": "Yaar, dono options ke apne pros aur cons hain. Agar tujhe business ya management mein interest hai, toh commerce sahi rahega. Lekin agar tu science ka shauk rakhta hai, toh science ki fields jaise engineering ya computer science bhi achhe options hain. Tere career goals kya hain? Koi specific field dekh raha hai? Uske hisaab se decision lena better hoga."
+  },
+  {
+    "id": "P025",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Bhai aaj khelne chalega kya Badmintion raat mein?",
+    "intent": "Asking about whether he will come to play badminton at night",
+    "qwen_3b_finetuned": "Haan yaar, bilkul! Kaafi maza aayega. Tumhare paas kitna experience hai badminton mein? Mujhe lagta hai ki hum dono achhe level pe hi ho sakte hain. Chalo, ek baar plan kar lete hain, phir thoda practice bhi kar lenge. Kahan jaana hai, gym ya kisi park mein?"
+  },
+  {
+    "id": "P026",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Bhai konsi job mai sabse jyada paisa hai abhi?",
+    "intent": "Asking which job has max salary",
+    "qwen_3b_finetuned": "Yaar, agar tujhe data science ya machine learning mein interest hai toh wo field mein kaafi scope hai. Bangalore mein startups aur MNCs mein achha salary mil sakta hai, especially agar tu accha work karega. Lekin agar tujhe kisi stable government job mein jaana hai, toh teaching ya public sector bhi achhi options hain. Dekh, yeh depend karta hai teri career goals pe. Tumhe kya zyada suit karega?"
+  },
+  {
+    "id": "P027",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Tumhe kya kya banana aata hai khaane mai for lunch?",
+    "intent": "Asking about what he/she knows to cook",
+    "qwen_3b_finetuned": "Yaar, mujhe toh biryani bahut pasand hai! Tumhe kya pasand hai? Aur waise bhi, agar tumne koi naye restaurant try kiya hai toh batao. Main dekh leta hoon. Kya bolte ho?"
+  },
+  {
+    "id": "P028",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Kya tumko pta hai chutti kab hai next?",
+    "intent": "Asking about when is the next holiday",
+    "qwen_3b_finetuned": "Haan yaar, maine suna hai ki tumhara trip China jaana hai. Kaisa plan hai wahan ka? Thoda sa relax karne ke liye koi achha hotel mila kya? Aur bhai, Chennai mein toh bahut saare jagah hain, like Marina Beach ya Pamban. Waise, tumhe pata hai na, agar hum dono milke chalte hain toh kuch aur bhi plan kar sakte hain, jaise water rafting ya kayaking!"
+  },
+  {
+    "id": "P029",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Kya lagta hai ki wo kal aa paayegi, uski doctor's appointment hai na?",
+    "intent": "Asking if she will come tomorrow as she has doctor's appointment",
+    "qwen_3b_finetuned": "Haan yaar, wo toh aa raha hai. Woh sirf thoda stress mein hain, lekin aise appointments sabko hota hai. Tumhe kya lagta hai, kuch special hoga ya nahi? Mujhe lagta hai unka tiffin service kaafi sahi chal raha hai, toh shayad woh thoda relax ho jaayein. Bas thoda time de do unhe, aur achha khana banao. Tumhare liye bhi unse baat karne ka plan banao, shayad kuch tips mil jayein."
+  },
+  {
+    "id": "P030",
+    "category": "question",
+    "script": "roman",
+    "prompt": "Yaar yeh kya ho gya phone mai tumko pta hai kya?",
+    "intent": "Asking if he can help with his phone",
+    "qwen_3b_finetuned": "Haan yaar, mujhe bhi pata chal raha hai. Matlab kabhi kabhi battery ya software mein problem hoti hai. Tumhe sabse pehle check karna hoga ki phone ka charging sahi hai ya nahi. Agar charge ho raha hai lekin problem badh rahi hai, toh shayad koi app background mein zyada resource use kar rahi ho. Waise agar koi specific issue hai toh mujhe batao, main madad karne ke liye ready hoon."
+  },
+  {
+    "id": "P031",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "मेरा wifi bahut slow chal रहा है, router restart karna पड़ेगा kya?",
+    "intent": "Asking how to start router",
+    "qwen_3b_finetuned": "Arre yaar, kabhi kabhi aisa hota hai. Pehle toh check kar le ki koi device connected hai nahi toh signal weak ho raha hai. Agar sab kuch theek hai, toh router ko restart karna bhi ek option hai. Kisi reliable repair shop se bhi dekh le agar kuch samajh nahi aa raha. Aur haan, agar password wrong hai toh usko bhi check kar le. Sab kuch thik ho jayega, tension mat le!"
+  },
+  {
+    "id": "P032",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Kal se cold हो रहा है, par office jana zaroori hai kya?",
+    "intent": "Asking if its important to go to office tomorrow",
+    "qwen_3b_finetuned": "Arre yaar, kal ka cold toh sabko pata hai! Lekin agar office jaana zaruri hai, toh woh bhi sahi hai na. Thoda chill maar le, thoda break le. Tu Zomato se kuch accha order kar le, ya phir chai peene jaa. Bangalore ki garmi mein thoda relax karna bhi ekdum important hai, samjha?"
+  },
+  {
+    "id": "P033",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Flight ticket confirm नहीं हुआ, refund kab tak आएगा?",
+    "intent": "Asking about refund as flight ticket isn't confirmed",
+    "qwen_3b_finetuned": "Arre yaar, pehle toh tension mat le. Tumhe booking confirmation email check karna chahiye, wahaan refund ka status dikh jayega. Agar wahan kuch nahi hai, toh customer support se baat karke dekh lena. Unka response kaafi jaldi aata hai. Aur agar tumhare paas koi issue hai toh unko bata do, wo help kar denge. Bas thoda patience rakho, sab theek ho jayega!"
+  },
+  {
+    "id": "P034",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "water bill ज्यादा आया है इस month, complaint kaise raise karu?",
+    "intent": "Asking how to complain about high water bill",
+    "qwen_3b_finetuned": "Achha, pehle toh tumhe apne water bill ka receipt rakhna padega. Phir, unke customer service number par call karo ya phir app se complaint daal do. Wahan par tumhe options milega jahan tum complaint file kar sakte ho. Ek baar unse pooch lo ki kyun aisa hi increase hua hai, shayad kuch explanation mil jaaye. Agar koi issue hai, toh unse directly complain bhi kar sakte ho. Samjhe? Aur haan, agar kuch nahi hota, toh thoda time ke liye wait karna bhi zaroori hai, kabhi kabhi fluctuations hote hain."
+  },
+  {
+    "id": "P035",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Gym join करना है but muscle gain ke liye कौन सा plan best रहेगा?",
+    "intent": "Asking which gym plan is best for muscle gain",
+    "qwen_3b_finetuned": "Bhai, gym join karna toh accha hai! Pehle toh, cardio aur weight lifting dono karke shuruat kar. Cardio se stamina badhta hai aur lifting se muscles build hote hain. Agar tu thoda protein include karega, jaise protein shakes ya chicken, toh zyada fayda milega. Bas, regular rehna zaroori hai, kyunki consistency ki baat hoti hai. Aur haan, kuch stretching bhi kar le, kyunki flexibility important hai. Thoda patience rakh, dheere dheere sab kuch set ho jayega!"
+  },
+  {
+    "id": "P036",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Phone ki battery जल्दी drain हो रही है, service center jana पड़ेगा kya?",
+    "intent": "Asking if they need to go service centre because phone battery is draining fast",
+    "qwen_3b_finetuned": "Bhai, ye toh kaafi common problem hai. Pehle toh, check kar le ke phone ko kis tarah se use kar raha hai. Agar zyada apps background mein chal rahe hain, toh unhe close kar de. Battery life improve ho jayegi. Kabhi kabhi software updates bhi battery drain kar dete hain, toh apne phone ka OS update kar le. Agar phir bhi problem hai, toh service center jaana padega. Unke liye appointment book kar lena, warna wait karne par zyada time lag sakta hai. Koi aur madad chahiye toh bolna yaar!"
+  },
+  {
+    "id": "P037",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Bank account me salary credit नहीं हुई अभी तक, check kar सकते हो?",
+    "intent": "Asking how to check whether salary is credited",
+    "qwen_3b_finetuned": "Haan yaar, koi tension nahi hai. Pehle toh, apne bank ki customer support number pe call kar, wahan se unhe situation bata de. Woh tumse ek verification request karenge. Tum apna account details ready rakhna, jaise ki account number aur recent statement. Phir wo tumhe yeh bata denge ki issue kya hai. Agar kuch samajh nahi aaye toh mujhe bata, main aur help kar dunga."
+  },
+  {
+    "id": "P038",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Mujhe passport renew karwana hai, documents कौन कौन से lagenge?",
+    "intent": "Asking what documents are required to get passport renewed",
+    "qwen_3b_finetuned": "Bhai, passport renewal ke liye tumhe kuch basic documents chahiye honge. Pehle toh passport original copy, jo tumne use kiya hai, rakhna. Phir, ek recent passport size photo, jo tumne bhi shoot ki hai, aur passport application form fill karna padega. Uske saath, identity proof jaise Aadhar card ya driver’s license bhi chahiye hota hai. Agar tumhare paas koi visa letter hai, toh wo bhi dikhana padega. Bas sab ready kar lo aur nearest passport office ya embassy me jaake apply karo, easy hai yaar!"
+  },
+  {
+    "id": "P039",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Laptop hang हो रहा है while coding, RAM upgrade karna useful होगा?",
+    "intent": "Asking about whether to update RAM or not",
+    "qwen_3b_finetuned": "Haan yaar, thoda RAM upgrade karne se kaafi madad milegi. Agar laptop ka current RAM 8GB hai, toh 16GB ya 32GB upgrade kar sakte ho. Yeh sab kuch achhe brands ke jaise HP ya Dell pe hamesha available hota hai. Lekin, pehle check kar lo ki laptop ka processor bhi strong ho, warna upgrade nahi sahi rahega. Flipkart ya Amazon pe dekh lena, wahan par offers bhi milte hain. Aur haan, agar possible ho toh ek reliable repair shop se bhi check karwa lo, kyunki kabhi kabhi hardware issues hote hain. Tumhare tiffin service ke liye bhi acha time milega agar performance badhega!"
+  },
+  {
+    "id": "P040",
+    "category": "question",
+    "script": "mixed-script",
+    "prompt": "Mom ko sugar hai, diet me meetha कम करना चाहिए kya?",
+    "intent": "Asking about whether reduce sugar in mom's diet",
+    "qwen_3b_finetuned": "Haan yaar, mujhe bhi pata hai ki sugar kaafi zyada nahi hona chahiye. Acha hoga agar tumhe sweets ko thoda restrict karne ki koshish karo, jaise chocolate ya ice cream. Thodi healthy options try kar sakte ho, jaise frozen yogurt ya fruit shakes. Aur tumhara dessert toh phir se fresh fruits ya berries banana best rahega. Bilkul healthy hai aur mom ke liye bhi accha lagega. Chalo, try karte hain!"
+  },
+  {
+    "id": "P041",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ye review padh ke bata: 'Phone bilkul bakwaas, paisa waste'. Sentiment kya hai?",
+    "intent": "Asking about sentiment of the statement",
+    "qwen_3b_finetuned": "Yaar, ye toh negative hi lag raha hai. Reviewer ko phone se kuch accha nahi laga, toh yeh sentiment clearly dekhne layak hai. Waise, kabhi kabhi aise reviews hote hain jo logon ko inspire karte hain improvement ke liye."
+  },
+  {
+    "id": "P042",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'Mujhe ek laptop khareedna hai mera budget 70k hai'",
+    "intent": "Asking about the intent of the statement",
+    "qwen_3b_finetuned": "Yaar, iska matlab hai ki tumhe laptop lena hai aur budget bhi set hai. Tumhe koi specific model ya feature chahiye kya? Agar tumhe kuch pata nahi hai toh main help kar sakta hoon."
+  },
+  {
+    "id": "P043",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'Aaj account mai kitne paise aaye batao'",
+    "intent": "Asking about the intent of the statement",
+    "qwen_3b_finetuned": "Yaar, yeh toh thoda formal hai, lekin aisa lagta hai ki wo samajh nahi raha ke tere account mein paisa aa gaya hai. Shayad unhe confirm karna hai ki zaroori details mil jayengi. Tumhe chhod na, agar zarurat hai toh unse baat kar lo, achha rahega!"
+  },
+  {
+    "id": "P044",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ye review padh ke bata: 'Saree rang chodhti hai, aur material bhi aacha nhi hai'. Sentiment kya hai?",
+    "intent": "Asking about sentiment of the statement",
+    "qwen_3b_finetuned": "Yaar, ye review thoda negative lag raha hai. Logon ko saree ka color aur quality pasand nahi aaya, toh wo disappointed hain. Aise reviews se achha nahi hota, boss. Koi aur saree dekh le, shayad kuch better mile."
+  },
+  {
+    "id": "P045",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ye review padh ke bata: 'yeh bahut aacha kaam karta hai discharge bhi nhi hota jaldi'. Sentiment kya hai?",
+    "intent": "Asking about sentiment of the statement",
+    "qwen_3b_finetuned": "Yaar, ye review toh bilkul positive hai! Matlab, uske paas accha kaam ho raha hai aur time pe discharge ho raha hai, toh woh khush hain. Aise reviews se lagta hai ki quality kaafi badh gayi hogi."
+  },
+  {
+    "id": "P046",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'Aaj ki bollywood news kya hai'",
+    "intent": "Asking about the intent of the statement",
+    "qwen_3b_finetuned": "Yaar, yeh toh positive vibe hai! Lagta hai kisi ne kuch achha dekha ya suna hai. Aise messages mein zyada expectations nahi hoti, bas dosti ki baatein hain. Tumhe kya lagta hai, koi acchi movie ya performance mil gayi?"
+  },
+  {
+    "id": "P047",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'kya mujhe ghee khareedna chahiye ya butter'",
+    "intent": "Asking about the intent of the statement",
+    "qwen_3b_finetuned": "Yaar, yeh toh thoda confusing lag raha hai. Lekin shayad unko confusion hai ki dono ke liye kya sahi hai. Ghee aur butter dono kaafi achi options hain, lekin agar unhe cooking mein zyada freshness chahiye, toh ghee better ho sakta hai. Butter bhi accha hai, par agar unhe quick cooking chahiye, toh ghee try kar sakte ho. Bas, jo bhi choose karo, uska taste aur quality dhyan rakhna."
+  },
+  {
+    "id": "P048",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'aaj ka mausam kharab lag rha hai, baarish ki koi khabar hai'",
+    "intent": "Asking about the intent of the statement",
+    "qwen_3b_finetuned": "Yaar, yeh toh thoda negative vibe de raha hai. Woh logon ko aisa lagta hai ki woh rain nahi milti, aur woh feeling se unhe frustration bhi ho sakta hai. Shayad unka mood thoda down feel kar raha hai iske liye. Tumhe unse baat karni chahiye, shayad unki expectations alag ho."
+  },
+  {
+    "id": "P049",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'konsi city better hai rehne ke liye mumbai delhi ya fir bangalore'",
+    "intent": "Asking about the intent of the statement",
+    "qwen_3b_finetuned": "Yaar, yeh toh thoda confusing lag raha hai na. Shayad kisi se baat kar rahe ho ya decision lene ko soch rahe ho. Agar tumhe shopping aur nightlife pasand hai, toh Mumbai best hai. Lekin agar education aur job opportunities chahiye, toh Bangalore accha hai. Aur agar tumhe peace aur relaxed environment chahiye, toh Delhi bhi sahi option hai. Tumhare liye kya important hai? Us hisaab se decide karna best rahega."
+  },
+  {
+    "id": "P049",
+    "category": "sentiment-analysis",
+    "script": "roman",
+    "prompt": "Ys message ka intent kya hai: 'yeh aacha gaana nhi hai please isko change kardo'",
+    "intent": "Asking about the intent of the statement",
+    "qwen_3b_finetuned": "Yaar, yeh toh complaint hai. Woh keh raha hai ki unhe kuch acha nahi lag raha, toh shayad unhe feedback dena padega. Shayad woh album ya track change karne ki zarurat hai. Thoda samajh ke baat karo, shayad unka mood achha ho."
+  }
+]

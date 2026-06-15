@@ -1,0 +1,3152 @@
+[
+  {
+    "prompt_id": "P001",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 3,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Response is incoherent with broken Hindi, nonsensical phrases like 'Kala Kama', and generic vague suggestions that don't actually help."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish with real Bangalore references like Nandi Hills and biryani, feels like a genuine friend giving weekend tips."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B gives concrete, Bangalore-specific suggestions in natural Hinglish while Response A is largely incoherent and unhelpful."
+  },
+  {
+    "prompt_id": "P001",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but 'Toit Mall' doesn't exist (Toit is a brewery, not a mall), and suggestions are thin with only 2 real options."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Comprehensive and accurate Bangalore suggestions with real places like VV Puram Food Street and Indiranagar, but the register feels formal/structured rather than natural Hinglish, and the response cuts off abruptly."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite a stiffer register, Response B provides genuinely useful, accurate, and comprehensive weekend recommendations for Bangalore with real cultural references, while Response A has factual errors and barely covers the intent."
+  },
+  {
+    "prompt_id": "P001",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Sounds like a genuine friend texting, but 'Toit Mall' doesn't exist (Toit is a brewery, not a mall), and suggestions are too vague and limited."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Comprehensive and accurate Bangalore-specific suggestions with real places, but reads more like translated formal Hindi than natural Hinglish, and cuts off mid-sentence."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite slightly stiffer register, Response B gives genuinely useful, accurate, and diverse Bangalore weekend options that actually address the user's need, whereas Response A has a factual error and barely scratches the surface."
+  },
+  {
+    "prompt_id": "P002",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish with good cultural references like tandoor and biryani, engages the user conversationally."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Completely misreads the casual Hinglish invite as a vocabulary question, responds in stiff formal English with a dictionary-style definition."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A correctly treats the message as a casual lunch invite and replies in natural Hinglish with cultural references, while Response B catastrophically misunderstands the intent and delivers an irrelevant formal explanation."
+  },
+  {
+    "prompt_id": "P002",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Responds appropriately but feels slightly formal and structured for casual Hinglish banter."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Very natural Hinglish with Indian food references like biryani and local tandoor, feels like a real friend responding."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B sounds like a genuine Indian friend replying in casual Hinglish with relatable cultural food references, making it far more natural and engaging than the slightly formal Response A."
+  },
+  {
+    "prompt_id": "P002",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Acknowledges the timing issue and suggests dinner instead, but feels a bit formal and doesn't fully engage with the lunch plan."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Enthusiastically engages with the plan, references local tandoor and biryani naturally, feels like a real Indian friend responding."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B engages naturally in Hinglish with culturally relevant food references and matches the casual friendly energy of the user, even if it slightly misses the evening timing observation."
+  },
+  {
+    "prompt_id": "P003",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Completely misinterpreted 'Mai' as a term of endearment rather than the Hindi first-person pronoun, giving a nonsensical response in formal English."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Uses decent Hinglish but misses the casual relatable tone of the user's statement, gives unsolicited advice, and confusingly mixes Pune with Chikmagalur (which is in Karnataka)."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Despite both responses missing the user's simple casual statement, Response B at least uses natural Hinglish register and attempts some relevant engagement, whereas Response A catastrophically misreads the sentence."
+  },
+  {
+    "prompt_id": "P003",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misunderstood the casual statement, gave irrelevant advice about relaxing and randomly mentioned Nandi Hills/Chikmagalur which are not near Pune."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Correctly understood the intent and responded relevantly about post-meal walking, though slightly formal in tone."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B actually understood the user's casual remark and responded appropriately, while Response A completely missed the point and gave nonsensical, factually wrong suggestions."
+  },
+  {
+    "prompt_id": "P003",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misreads the casual statement as a request for advice, and bizarrely suggests Nandi Hills/Chikmagalur (tourist spots, not walk spots) which are in a different city context entirely."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Correctly understands the user's statement and responds appropriately, though the register is more formal Hindi than natural Hinglish."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response B actually understands what the user said and gives a relevant, sensible reply, while Response A completely misinterprets the message and gives irrelevant suggestions."
+  },
+  {
+    "prompt_id": "P004",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish, engages conversationally and asks a follow-up, though it doesn't specify which movie it's talking about."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely hallucinated a movie with wrong details (Kesari is not directed by Karan Johar, doesn't star Shahid/Kangana, and the plot description is fabricated), plus uses the AI-disclaimer style."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A speaks naturally in Hinglish and engages authentically with the question, while Response B hallucinated an entirely fictional movie description with wrong facts and broke character with an AI disclaimer."
+  },
+  {
+    "prompt_id": "P004",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish register but fabricates a movie opinion as if it watched the film, which is dishonest and misses the point of the question."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Honestly acknowledges it can't watch movies, then redirects to ask the user to share their experience, which correctly handles the intent."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B is more accurate and honest about its limitations while still engaging the user, whereas Response A fabricates a movie-watching experience which is misleading."
+  },
+  {
+    "prompt_id": "P004",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 1,
+      "brief_note": "Pure English AI-disclaimer style response that completely breaks the Hinglish conversational flow and deflects instead of engaging."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish response that engages conversationally and turns it into a friendly discussion, though it assumes a specific opinion without knowing which movie."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B matches the casual Hinglish register, engages naturally with the conversation, and feels like a real friend replying, whereas Response A is a robotic English deflection."
+  },
+  {
+    "prompt_id": "P005",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish with a friendly tone, gives a practical suggestion with minor slip (bread pe protein point is slightly off since egg is the protein, not bread)."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Response is incoherent, grammatically broken, and completely fails to address the simple breakfast question in any meaningful way."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A is natural, relevant, and actually helpful while Response B is gibberish that addresses nothing."
+  },
+  {
+    "prompt_id": "P005",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Casual, friendly Hinglish tone with natural code-switching, though the advice about bread giving protein is slightly off (egg gives protein, not bread)."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "More formal and structured with 'aap' register which feels slightly stiff compared to casual WhatsApp Hinglish, but content is balanced and helpful."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A feels more like a natural Indian friend on WhatsApp with its casual 'tu/bhai' register and conversational flow, better matching the informal Hinglish tone of the user's message."
+  },
+  {
+    "prompt_id": "P005",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Too formal and textbook-sounding — 'vikalp', 'poshtik', 'depend karta hai' makes it feel like translated Hindi rather than natural Hinglish conversation."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Sounds like a real friend texting on WhatsApp — casual tone, natural code-switching, and the doodh suggestion adds a relatable Indian touch."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B nails the natural Hinglish register and feels like an actual Indian friend replying, while Response A reads like a formal translation that breaks the conversational vibe."
+  },
+  {
+    "prompt_id": "P006",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Completely misunderstood the phrase — 'phone nhi utha rahe' means not picking up calls, not a charging issue — and responded in formal English with irrelevant troubleshooting advice."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Also misunderstood the intent — the user is asking why someone isn't picking up the phone (a personal concern), not about phone repair — and responded with irrelevant Flipkart repair suggestions."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "While both responses miss the actual intent, Response B at least attempts Hinglish register and includes some Indian cultural reference (Flipkart), making it marginally less wrong than Response A's complete mistranslation and formal English troubleshooting."
+  },
+  {
+    "prompt_id": "P006",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misunderstood the message — user is asking why someone isn't picking up the phone, not asking about phone repair; response goes off on an irrelevant Flipkart tangent."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Correctly understands the intent and responds naturally as if from the person who missed the call, though it's brief and could be warmer/more expressive."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B correctly interprets the situation and replies naturally, while Response A completely misreads the message and gives an irrelevant phone repair answer."
+  },
+  {
+    "prompt_id": "P006",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Addresses the question reasonably but feels slightly formal and apologetic in an AI-like way rather than a natural friend response."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misreads the situation — the user is asking a person why they weren't picking up, not asking about phone repair, making this response entirely irrelevant."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response A at least understands and addresses the user's actual intent (concern about not picking up the phone), while Response B goes off on a completely unrelated phone repair tangent."
+  },
+  {
+    "prompt_id": "P007",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Reads like a formal AI disclaimer response, completely ignores the conversational exchange and fails to engage naturally."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish with real IPL team references and friendly banter, though it fabricates having watched the match as an AI."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B matches the casual Hinglish register, engages with the IPL topic naturally with real cultural references, making it feel like a genuine conversation between friends."
+  },
+  {
+    "prompt_id": "P007",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish with CSK reference feels authentic, but assumes team and pivots to stadium plans without engaging with the user's excitement first."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Good follow-up questions that engage with the user's excitement, but slightly generic and lacks specific Indian cultural flavor."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B better addresses the user's intent by engaging with their excitement and asking follow-up questions, whereas A makes assumptions and diverts the conversation."
+  },
+  {
+    "prompt_id": "P007",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Honest about being an AI but still engages with the topic, though the disclaimer style feels slightly robotic and formal."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 2,
+      "cultural_fit": 4,
+      "brief_note": "Sounds like a real friend chatting about IPL with natural Hinglish and Indian cricket references, but fabricates having watched the match and makes up details, which is hallucination."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite lower register, Response A is more honest and doesn't hallucinate match details or pretend to have watched something it didn't, making it more trustworthy even if less conversationally engaging."
+  },
+  {
+    "prompt_id": "P008",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misunderstands the casual invite and deflects with AI-assistant mode, making little grammatical sense in Hindi."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Responds naturally in Hinglish and engages with the swimming plan, though it slightly misses the direct 'will you join me?' intent by being vague instead of simply agreeing or asking for details."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B actually engages with the social invite in natural Hinglish, while Response A completely fails to understand the casual invitation and falls into AI-disclaimer mode."
+  },
+  {
+    "prompt_id": "P008",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Responds enthusiastically but avoids directly answering if they'll come or not, instead deflecting with questions and generic swimming talk."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Directly answers the yes/no question by declining, then politely redirects with a follow-up question — honest and on-point."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B actually answers the user's direct question (will you come?) while Response A dodges it entirely with vague enthusiasm."
+  },
+  {
+    "prompt_id": "P008",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Responds enthusiastically in natural Hinglish but doesn't directly say yes/no to joining, instead deflects with generic questions."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 2,
+      "brief_note": "Correctly identifies it's an AI but the disclaimer-style response kills the conversational vibe and misses the casual intent of the user."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A maintains natural Hinglish tone and engages with the swimming plan conversationally, whereas Response B breaks immersion with an AI disclaimer that feels robotic and unhelpful in this casual context."
+  },
+  {
+    "prompt_id": "P009",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely missed the intent — user is sharing a personal story, not asking for accident news or weather; response is robotic AI-disclaimer style."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Sounds like natural Hinglish and engages conversationally, but misses that the user is mid-story and wants to be heard/asked what happened, not given route advice."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Despite both responses partially missing the intent, B at least engages in natural Hinglish conversation rather than giving a completely irrelevant AI-generated disclaimer like A."
+  },
+  {
+    "prompt_id": "P009",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misses the point — user is sharing a shocking incident they witnessed, but response asks about alternate routes and dismisses the concern."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Correctly understands the user is sharing news of an accident and responds with empathy and follow-up questions, though the language is slightly formal."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B actually addresses the user's intent — reacting empathetically to news of an accident — while Response A completely ignores it and goes off on a tangent about alternate routes."
+  },
+  {
+    "prompt_id": "P009",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Completely misses the emotional cue and pivots to asking about alternate routes, which is tone-deaf to someone sharing a shocking incident."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Responds with appropriate concern, asks relevant follow-up questions about injuries and emergency services, correctly matching the user's intent to share a distressing event."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response B actually addresses the emotional weight of the user's story with empathy and practical follow-up, while Response A awkwardly pivots to irrelevant route advice."
+  },
+  {
+    "prompt_id": "P010",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Good Hinglish tone and empathy, but pivots too quickly to hobby suggestions without fully acknowledging the 'no time' frustration."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 2,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Pure formal English with a numbered list format that feels like a corporate wellness email, completely missing the casual Hinglish vibe and misreading the user's core complaint about lack of time."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A at least matches the user's Hinglish register, uses empathetic 'yaar/bhai' language, and partially addresses the frustration, while Response B is entirely in formal English and misinterprets the user's issue as a productivity problem rather than a time-scarcity frustration."
+  },
+  {
+    "prompt_id": "P010",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Too formal and listicle-style, reads like a translated self-help article rather than a real Hinglish friend responding to emotional frustration."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "More natural Hinglish tone and empathetic opener, but jumps too quickly to generic hobby suggestions without fully acknowledging the 'stuck' feeling, and the ending grammar is off."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B better matches the casual, empathetic Hinglish register the user is seeking, even though both partially miss the emotional depth of the 'I feel stuck' sentiment."
+  },
+  {
+    "prompt_id": "P010",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Too formal and listicle-style, reads like a translated productivity article rather than a warm Hinglish friend response, and misses the emotional 'stuck' feeling entirely."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "More natural Hinglish tone and shows empathy, but jumps too quickly to generic suggestions (gardening, painting) without really digging into the user's frustration or understanding their context."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B better matches the emotional register and uses more natural Hinglish with genuine empathy, even though neither response fully addresses the 'stuck' frustration the user expressed."
+  },
+  {
+    "prompt_id": "P011",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Pure English, formal bullet-point structure feels like a corporate FAQ rather than a helpful Indian friend, and the response is cut off."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish with step-by-step guidance that directly addresses the refund process in a friendly, conversational tone fitting the user's query."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B matches the user's Hinglish register perfectly, gives actionable steps specific to Flipkart's actual refund flow, and feels like advice from a real Indian friend rather than a formal FAQ."
+  },
+  {
+    "prompt_id": "P011",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Overly formal and structured like a help article rather than a natural Hinglish conversation, though the steps are accurate and relevant."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Sounds like a real Indian friend giving advice — natural tu/tujhe register, casual tone, and practical steps with realistic refund timeline."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B wins because it nails the natural Hinglish register with genuine code-switching and a friendly tone, while still delivering accurate, helpful content comparable to Response A."
+  },
+  {
+    "prompt_id": "P011",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Comprehensive steps but written in formal Hinglish with 'aapko' phrasing that feels more like a customer service script than a friend chatting."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 5,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Natural casual Hinglish with 'tu/tujhe' that feels like a real friend helping, but slightly less detailed on the refund process steps."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite slightly stiffer register, Response A provides more complete and actionable information including order cancellation flow, refund timeline, and confirmation details, making it more practically useful for someone dealing with a delayed order."
+  },
+  {
+    "prompt_id": "P012",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Completely irrelevant formal Hindi gibberish that doesn't address the Swiggy wrong order issue at all."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish with practical step-by-step Swiggy app guidance including Order History, Report Issue, and refund/replacement options."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B is a clear winner — it answers the actual question in natural Hinglish with accurate, actionable Swiggy-specific steps, while Response A is completely off-topic nonsense."
+  },
+  {
+    "prompt_id": "P012",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Natural dost-jaisi Hinglish with casual 'tu/tujhe' tone matching the user's 'yaar' register perfectly."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 4,
+      "brief_note": "More detailed and structured but uses formal 'aap' register which feels slightly mismatched with the casual 'yaar' vibe of the query."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A nails the casual Hinglish register matching the user's tone, while B is more thorough but feels like a formal help-desk response rather than a friend's advice."
+  },
+  {
+    "prompt_id": "P012",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Thorough and accurate but reads like a formal Hindi FAQ, not natural Hinglish friend-talk."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 5,
+      "content_quality": 3,
+      "cultural_fit": 5,
+      "brief_note": "Sounds exactly like a real Indian friend texting on WhatsApp, though slightly less detailed on steps."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B nails the natural Hinglish register and cultural tone that matches the user's casual query, making it far more relatable despite being slightly less detailed than A."
+  },
+  {
+    "prompt_id": "P013",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Response is incoherent, written in broken formal Hindi with no relevance to the charging problem, and appears to be a hallucinated/garbled output."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 5,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone addressing the charging issue with practical troubleshooting steps, though advice is somewhat generic and misses specific checks like cable/adapter inspection."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B actually addresses the user's phone charging problem in natural Hinglish, while Response A is completely incoherent and irrelevant."
+  },
+  {
+    "prompt_id": "P013",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 3,
+      "brief_note": "Comprehensive troubleshooting steps but feels slightly formal/listicle-style rather than natural Hinglish banter."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Sounds more like a natural friend but gives vague, partially irrelevant advice (checking if battery is charged misses the point) and lacks actionable troubleshooting steps."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response A, despite being slightly formal, actually addresses the charging problem with concrete, actionable steps, making it far more useful than Response B's vague and partially off-target advice."
+  },
+  {
+    "prompt_id": "P013",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Too formal Hindi (samasya, upayog, jaanch) making it feel like translated content rather than natural Hinglish, though steps are practical and useful."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Sounds more like a natural Hinglish friend but misunderstands the problem — user said phone isn't charging at all, not that battery is draining, making the advice largely off-target."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite stilted register, Response A actually addresses the charging problem with concrete, actionable steps (check cable, port, socket, restart) while Response B misreads the issue and gives mostly irrelevant advice about battery drain and apps."
+  },
+  {
+    "prompt_id": "P014",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Completely formal English response that reads like a customer service template, with AliExpress reference instead of Indian platforms like Flipkart/Meesho."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish tone with practical advice about order ID, photos, and customer service, though slightly generic without specifying which platform."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B speaks in natural Hinglish matching the user's register, gives actionable steps like keeping order ID ready and taking photos, and feels like a real Indian friend helping out."
+  },
+  {
+    "prompt_id": "P014",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Decent Hinglish but slightly formal tone, gives generic refund advice without being very actionable."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "More natural and conversational Hinglish with practical tips like keeping order ID ready, though slightly rambling at the end."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B feels more like a real Indian friend helping out, with more natural register, practical steps like mentioning order ID and app-based customer service, which fits the typical Indian food delivery app context better."
+  },
+  {
+    "prompt_id": "P014",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone with practical advice, though slightly vague and the 'mujhe bhi dekh lo' line is oddly placed."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Overly formal Hindi with words like 'asuvidha' and 'kripya' that feel like a translated customer service template, not natural Hinglish."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A uses natural Hinglish register and more directly addresses the refund issue with actionable steps, while Response B reads like a formal Hindi translation with no cultural authenticity."
+  },
+  {
+    "prompt_id": "P015",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Good Hinglish tone with Indian app references (Zomato, Flipkart), but assumes specific platforms without knowing which one the user ordered from."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Formal English bullet-point response feels like a generic support bot, completely missing the Hinglish register and Indian conversational context."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A matches the user's casual Hinglish tone, uses Indian platform references, and delivers the same practical info in a far more natural and culturally appropriate way."
+  },
+  {
+    "prompt_id": "P015",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish tone with real Indian app references (Zomato, Flipkart) and practical step-by-step guidance."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Overly formal Hindi register, sounds like translated customer service script rather than a friendly Hinglish reply, and lacks specific Indian platform references."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A feels like a real Indian friend helping out — natural Hinglish, specific Indian brand references, and actionable steps — while Response B is stiff and generic."
+  },
+  {
+    "prompt_id": "P015",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish tone with real Indian app references (Zomato, Flipkart) and practical steps, though slightly assumes which platform was used."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Too formal and khed/sampark/kripya style Hindi makes it feel like a customer service bot rather than a helpful friend, lacking Indian app context."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A wins with natural Hinglish register, real Indian brand references, and actionable steps compared to B's overly formal, generic tone."
+  },
+  {
+    "prompt_id": "P016",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish tone with practical complaint steps, though slightly generic without knowing which app/platform."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Completely irrelevant formal Hindi response about financial protection, appears truncated/corrupted and misses the user's complaint intent entirely."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A correctly understands the complaint intent and replies in natural Hinglish with actionable steps, while Response B is garbled, off-topic formal Hindi that fails on every dimension."
+  },
+  {
+    "prompt_id": "P016",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone with friendly 'bhai' style, but advice is somewhat generic without specifics like Meesho/Flipkart/Amazon context."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "More structured and detailed advice but feels like formal translated Hindi, not natural Hinglish conversation."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A wins because its natural Hinglish register feels like a real Indian friend helping out, which matches the casual tone of the user's message, even though Response B is more detailed."
+  },
+  {
+    "prompt_id": "P016",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone with friendly bhai-style address, but advice is generic without knowing which platform the order is from."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 2,
+      "brief_note": "More structured and detailed steps but feels like translated formal Hindi, losing the casual Hinglish feel the user expects."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A matches the casual Hinglish register of the user much better, feeling like a real friend helping out, even though Response B is more detailed."
+  },
+  {
+    "prompt_id": "P017",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 1,
+      "brief_note": "Completely in formal English with generic steps, misses the user's direct request to be connected with the owner."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Good Hinglish register but also fails to connect the user with the owner as requested, offering generic advice instead."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B at least uses natural Hinglish matching the user's language register, making it more relatable, even though neither response truly addresses the user's core request of being connected to the owner."
+  },
+  {
+    "prompt_id": "P017",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Friendly Hinglish tone but completely misses the user's actual request to connect them with the owner/escalate, instead giving generic patience advice."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Better addresses the escalation intent with actionable steps including consumer forum (Indian context), though slightly formal and structured rather than natural Hinglish."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B more accurately addresses the user's real frustration and desire for escalation, offering concrete actionable steps including consumer forum which is relevant Indian context, despite being slightly more formal in register."
+  },
+  {
+    "prompt_id": "P017",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Decent Hinglish tone but completely misses the user's request to be connected to the owner, instead giving generic advice."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Formal Hindi register feels very unnatural for Hinglish context, though it partially addresses the need for more info to escalate."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Despite missing the core intent of connecting to the owner, Response A at least sounds like a natural Hinglish conversation, whereas Response B's overly formal Hindi register is completely out of place for this context."
+  },
+  {
+    "prompt_id": "P018",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish tone with practical advice, ends with a follow-up question to better help the user."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 1,
+      "brief_note": "Responds in formal English with a bizarre mention of Alibaba Cloud, completely missing the Hinglish register and Indian e-commerce context."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A matches the user's Hinglish register, correctly addresses the replacement query with practical steps, and feels like a real Indian friend helping out, whereas Response B is in formal English with irrelevant foreign platform references."
+  },
+  {
+    "prompt_id": "P018",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone with friendly bhai energy, but advice is generic without mentioning specific Indian platforms like Flipkart/Amazon/Meesho."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 2,
+      "brief_note": "Structured and thorough but feels like translated formal Hindi with bullet points, losing the casual Hinglish register the user used."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A matches the user's casual Hinglish tone and feels like advice from a real friend, which is more appropriate for the informal register of the user's message."
+  },
+  {
+    "prompt_id": "P018",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Decent Hinglish with useful steps but slightly formal and structured like a how-to guide rather than a casual friend's advice; also cuts off mid-sentence."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Sounds like a genuine Indian friend texting back, natural code-switching, but content is a bit generic and lacks specific platform references."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B wins on natural Hinglish register and conversational tone that matches the user's casual message, despite Response A having slightly more structured content (which is undermined by being cut off mid-sentence)."
+  },
+  {
+    "prompt_id": "P019",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Responds mostly in English with formal bullet points, missing the natural Hinglish tone and Indian platform context."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish with step-by-step guidance referencing Flipkart specifically, feels like advice from an Indian friend."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B matches the user's language register perfectly, provides actionable steps in natural Hinglish, and grounds the answer in a real Indian e-commerce context (Flipkart)."
+  },
+  {
+    "prompt_id": "P019",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Generic steps without assuming any platform, somewhat formal Hinglish, lacks specific Indian platform context."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "More natural Hinglish tone with a specific Indian platform (Flipkart) reference and clear actionable steps."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B feels more like a real Indian friend helping out — natural register, specific Flipkart reference, and concrete steps make it more useful and culturally grounded."
+  },
+  {
+    "prompt_id": "P019",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Sounds natural and Hinglish-friendly but assumes Flipkart without knowing the platform, which is a guess that may or may not be correct."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Overly formal and generic steps that feel like translated customer support documentation rather than natural Hinglish conversation, and the response is cut off."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A feels more like a real Indian friend helping out with natural Hinglish register and a specific platform reference (Flipkart), despite the assumption risk, whereas Response B is stilted, cut off, and reads like a formal translated manual."
+  },
+  {
+    "prompt_id": "P020",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 2,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely off-track — mentions MAC addresses, firmware, and drivers for a simple phone notification issue, making the advice irrelevant and confusing."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone with practical steps like restart and app updates, though it could be more specific about notification settings."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B correctly addresses the notification issue with natural Hinglish and practical advice, while Response A gives completely irrelevant technical steps about MAC addresses and firmware."
+  },
+  {
+    "prompt_id": "P020",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Sounds natural and friendly but gives vague/wrong advice (battery check, hardware issue) instead of actual notification troubleshooting steps."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 3,
+      "brief_note": "Covers all relevant notification troubleshooting steps accurately and in a structured way, though the register is slightly formal/translated."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B directly and comprehensively addresses the actual notification issue with actionable steps, far outweighing Response A's natural tone but shallow and partially irrelevant advice."
+  },
+  {
+    "prompt_id": "P020",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Sounds natural Hinglish but gives vague, generic advice and wrongly suggests hardware issues without covering basic software fixes like DND or app permissions."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 3,
+      "brief_note": "Very structured and accurate troubleshooting steps but the language is formal Hindi-ish rather than natural Hinglish, though it correctly addresses the problem comprehensively."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite being more formal in register, Response B actually addresses the notification issue with concrete, actionable steps covering all common causes, making it far more useful than Response A's vague suggestions."
+  },
+  {
+    "prompt_id": "P021",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Response is factually wrong and nonsensical — claims there's no direct bus or flight between Delhi and Mumbai, which is completely false, and the routing via Agra makes no sense."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Hinglish register feels natural and friendly, but the response is vague — doesn't properly compare bus vs flight with actual details like cost, duration, or booking platforms like MakeMyTrip or RedBus."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Despite being generic, Response B at least gives correct directional advice (flight is better for time-saving) without containing the factual hallucinations and incoherence that make Response A completely unusable."
+  },
+  {
+    "prompt_id": "P021",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Too formal/written Hindi (pramukh vikalp, sukhad) rather than natural Hinglish, but covers the comparison well."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Sounds natural and friendly but gives wrong info (auto/cab for Delhi-Mumbai?) and barely addresses the actual bus vs flight comparison."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite its formal register, Response A actually answers the question with useful, accurate content comparing bus and flight options, while Response B sounds natural but gives nonsensical advice."
+  },
+  {
+    "prompt_id": "P021",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Too formal and Hindi-heavy with words like 'pramukh vikalp' and 'thakavat'; reads like a translated textbook rather than natural Hinglish, and the response is also cut off mid-sentence."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Sounds casual and natural but completely misses the comparison the user asked for, randomly mentions auto/cab (irrelevant for Delhi-Mumbai), and gives no useful info about bus vs flight tradeoffs."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite its formal register, Response A actually attempts to answer the bus vs flight comparison the user asked for with relevant details like time and cost, whereas Response B ignores the bus option entirely and provides no actionable information."
+  },
+  {
+    "prompt_id": "P022",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Completely misunderstands a simple Hinglish price-inquiry question and responds in formal English with unnecessary confusion."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Hinglish register feels natural but doesn't actually answer the price question — evades with vague commentary instead of giving useful price info."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Despite neither response properly answering the price question, Response B at least uses natural Hinglish register and engages with the topic, while Response A completely fails to understand the question and responds in formal English."
+  },
+  {
+    "prompt_id": "P022",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Slightly formal Hinglish that acknowledges it doesn't know the price and redirects, which is honest but not very helpful."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Sounds like natural Hinglish banter but completely fabricates a vague non-answer and doesn't address the actual price question at all."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response A, despite being slightly formal, at least correctly understands the intent and gives a honest, actionable redirect, whereas Response B sounds natural but is meaningless and unhelpful."
+  },
+  {
+    "prompt_id": "P022",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Decent Hinglish register but completely dodges the actual price question by giving a generic 'check online/market' non-answer."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Sounds conversational but totally misses the intent — responds as if it's a peer conversation about a shared purchase rather than answering the price question."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response A at least acknowledges the question and attempts to guide the user toward finding the price, while Response B completely misinterprets the context and provides no useful information."
+  },
+  {
+    "prompt_id": "P023",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish with real Indian fund names and apps like Groww/Zerodha, gives sensible advice with appropriate disclaimer."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 3,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Structured but repetitive 'Kritika' section is copy-pasted gibberish, yields are inaccurate for equity MFs, and response cuts off mid-sentence."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A gives natural Hinglish advice with real, relevant Indian references and actually useful content, while Response B has hallucinated/inaccurate data and nonsensical repetition."
+  },
+  {
+    "prompt_id": "P023",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish with good Indian app references (Zerodha, Groww) but fund suggestions are brief and lack detail."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Comprehensive fund list with solid Indian context but slightly formal/structured tone and the response cuts off mid-sentence."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite the cut-off ending and slightly formal register, Response B delivers substantially more useful and specific content with multiple fund options, risk categorization, and better intent coverage, making it more practically helpful for the user's actual question."
+  },
+  {
+    "prompt_id": "P023",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 5,
+      "brief_note": "Natural Hinglish with good Indian app references (Groww, Zerodha) but fund suggestions are a bit thin and generic."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Pure formal Hindi completely mismatches the casual Hinglish user register, though content is more comprehensive and structured."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A matches the user's casual Hinglish register with natural code-switching and culturally relevant Indian app references, making it far more appropriate for the context despite slightly thinner content."
+  },
+  {
+    "prompt_id": "P024",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish tone like a real friend, asks clarifying question but could offer more concrete guidance."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Formal English with bullet points and headers, feels like a Wikipedia article rather than a helpful Indian friend, and the response is even cut off mid-sentence."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A matches the user's Hinglish register naturally and feels like advice from a real friend, while Response B's formal English structure and incomplete response are completely mismatched to the conversational tone of the question."
+  },
+  {
+    "prompt_id": "P024",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Natural dost-jaisa Hinglish with 'yaar' and 'tujhe', but content is a bit brief and generic without naming specific career paths like CA or engineering colleges."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 4,
+      "brief_note": "Comprehensive and accurate with good career options like CA, CS, MBA mentioned, but the formal 'aap' register feels stiff and un-friend-like compared to the user's casual 'bhai' tone."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "The user used casual 'bhai' tone expecting a friend-like response, and Response A matches that register naturally while still being reasonably helpful, whereas Response B's formal 'aap' style breaks the conversational vibe despite its better content."
+  },
+  {
+    "prompt_id": "P024",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Helpful and structured but slightly formal/listicle-style rather than natural Hinglish banter, though content covers CA, MBA etc. well."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "More natural Hinglish tone but too brief and generic, misses key Indian career paths like CA, NEET, JEE that are highly relevant."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response A is more comprehensive and covers the key Indian career pathways (CA, CS, engineering, medical) that are directly relevant to a 10th-standard student's decision, making it substantially more useful despite being slightly more formal."
+  },
+  {
+    "prompt_id": "P025",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 1,
+      "brief_note": "Pure formal English with AI-disclaimer tone, completely misses the casual friend-to-friend invite vibe."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish response that engages with the invite casually, though it plays along as if it can actually meet up which is a bit misleading for an AI."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B matches the casual Hinglish register, engages with the actual intent of the invite, and feels like a real friend replying, whereas Response A is stiff formal English that completely misreads the conversational context."
+  },
+  {
+    "prompt_id": "P025",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Accepts the plan but goes off-track by asking about experience level and gym/park, making it feel like a formal survey rather than a casual friend chat."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Cleanly accepts the badminton plan and asks a relevant follow-up about timing, which is exactly what a real friend would do in this context."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B stays focused on the actual intent — confirming the plan and asking about timing — without unnecessary tangents, making it more natural and contextually appropriate."
+  },
+  {
+    "prompt_id": "P025",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Deflects the invitation instead of engaging with it, making it feel like a generic advice response rather than a friend replying to a casual plan."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Responds naturally as a friend accepting the badminton plan, asks follow-up questions about venue (gym/park) which feels very Indian and conversational."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B actually engages with the invitation like a real friend would, uses natural Hinglish tone, and asks relevant follow-up questions about location, whereas Response A awkwardly declines and gives unsolicited advice."
+  },
+  {
+    "prompt_id": "P026",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Decent Hinglish with Bangalore reference but only addresses data science/ML and government jobs without giving a direct answer about highest-paying fields currently."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misses the question with vague philosophical nonsense about 'mitti' and 'shubh karma', and then pivots to asking for a resume, making no sense at all."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A at least partially addresses high-paying jobs with relevant Indian context (Bangalore, MNCs, data science) in natural Hinglish, while Response B is incoherent and entirely misses the user's intent."
+  },
+  {
+    "prompt_id": "P026",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Very formal Hindi ('kshetra', 'chayan') makes it feel like a translated textbook rather than a natural Hinglish conversation between friends."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 4,
+      "brief_note": "Sounds more natural and mentions Bangalore which adds Indian context, but narrowly focuses on data science and oddly brings up government/teaching jobs without addressing the 'sabse jyada paisa' question broadly."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite its stiff register, Response A actually answers the question comprehensively by covering multiple high-paying fields, while Response B drifts off-topic and fails to properly address which jobs pay the most."
+  },
+  {
+    "prompt_id": "P026",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 4,
+      "brief_note": "Good Hinglish register and Bangalore reference, but only mentions data science and government jobs instead of giving a proper high-paying jobs overview."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Comprehensively answers the question with a good list of high-paying fields, though slightly formal/structured and lacks Indian-specific salary context."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response B directly and comprehensively answers what the user actually asked — which jobs pay the most — while Response A partially dodges the question and gives a narrow, incomplete answer."
+  },
+  {
+    "prompt_id": "P027",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Decent Hinglish tone but completely misses the question — user asked what the AI can cook, not what it likes to eat or restaurant recommendations."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 2,
+      "content_quality": 3,
+      "cultural_fit": 1,
+      "brief_note": "Formal English recipe format with Western ingredients like quinoa and arugula misses the Hinglish register entirely and partially misunderstands the intent (gives a recipe suggestion rather than listing what it knows how to make)."
+    },
+    "winner_label": "tie",
+    "reason": "Both responses fundamentally fail the intent — A ignores the question entirely with deflection, B answers in wrong language/format with wrong cultural context — neither deserves to win."
+  },
+  {
+    "prompt_id": "P027",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Completely misses the intent — user asked what the AI can cook, but response deflects to asking about the user's preferences and restaurants."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 5,
+      "brief_note": "Correctly interprets the question and provides a solid list of Indian lunch options with good cultural fit, though the register is slightly formal/listicle-style rather than casual Hinglish."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B actually answers the question with relevant, culturally appropriate Indian lunch options, while Response A completely ignores the user's intent."
+  },
+  {
+    "prompt_id": "P027",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Content is relevant and culturally appropriate but the language is overly formal Hindi (vikalp, upyukt, mishran) rather than natural Hinglish."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Completely misses the intent — user asked what the AI can cook, not a food preference conversation or restaurant recommendation."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite stilted formal Hindi register, Response A actually answers what the user asked (what it can cook for lunch) with relevant content, while Response B completely misses the question entirely."
+  },
+  {
+    "prompt_id": "P028",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely ignores the question about holidays and rambles about an unrelated China trip and Chennai tourism."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Misinterprets 'chutti' (holiday/vacation) as a film title 'Chutki' and responds in formal English, missing the intent entirely."
+    },
+    "winner_label": "tie",
+    "reason": "Both responses completely fail to address the user's simple question about the next holiday — Response A goes off-topic entirely while Response B misidentifies 'chutti' as a movie title."
+  },
+  {
+    "prompt_id": "P028",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Reasonable Hinglish response that correctly understands the question and suggests checking local calendar, though generic without mentioning Indian holidays."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely ignores the holiday question and instead hallucinates a China trip and randomly mentions Chennai, making it entirely irrelevant."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response A actually addresses the user's question about the next holiday, while Response B is a hallucinated non-answer that has nothing to do with the question."
+  },
+  {
+    "prompt_id": "P028",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Decent Hinglish with good Indian holiday references, though slightly formal in phrasing."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely ignores the question and rambles about an unrelated China trip and Chennai tourism, making no sense contextually."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response A actually addresses the user's question about the next holiday with relevant Indian context, while Response B is a completely incoherent non-answer."
+  },
+  {
+    "prompt_id": "P029",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely ignores the question about whether she can come tomorrow due to a doctor's appointment, instead rambling about unrelated topics like tiffin service."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Completely incoherent response that doesn't address the user's question at all, with broken grammar and nonsensical reasoning."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A at least attempts Hinglish register and has some coherent structure, whereas Response B is grammatically broken and completely nonsensical."
+  },
+  {
+    "prompt_id": "P029",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely off-topic — rambles about tiffin service and food tips instead of addressing whether she can come tomorrow given her doctor's appointment."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Correctly addresses the question about whether she'll be able to come despite her appointment, though the language is slightly formal and the advice is generic."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B actually answers the user's question about whether she can come tomorrow given her doctor's appointment, while Response A is completely irrelevant hallucination."
+  },
+  {
+    "prompt_id": "P029",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly addresses the question with reasonable logic, but feels slightly formal/stilted rather than natural Hinglish banter."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely goes off-track with irrelevant tiffin service and cooking references, ignoring the actual question about the doctor's appointment."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response A actually answers the user's question about whether she can come given her doctor's appointment, while Response B hallucinates irrelevant context and misses the intent entirely."
+  },
+  {
+    "prompt_id": "P030",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Formal Hindi with gibberish content, completely misses the user's casual phone-problem question and sounds like a broken AI disclaimer."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish, correctly interprets the phone issue and offers generic but helpful troubleshooting while inviting more details."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B actually engages with the user's phone problem in natural Hinglish, while Response A is incoherent formal Hindi that completely ignores the question."
+  },
+  {
+    "prompt_id": "P030",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Assumes it knows the issue without being told, giving unsolicited generic advice instead of asking what the actual problem is."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 2,
+      "brief_note": "Correctly acknowledges it doesn't know the issue and asks for clarification, but uses formal Hindi ('samasya', 'aap') which feels stiff compared to the user's casual 'yaar' tone."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B correctly identifies that it needs more information before helping, which is the right approach, whereas Response A falsely assumes the problem and gives irrelevant generic advice."
+  },
+  {
+    "prompt_id": "P030",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Assumes a specific problem and gives generic troubleshooting advice without knowing what the actual issue is, which misses the vague nature of the user's question."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly recognizes the user hasn't specified the problem and asks a clarifying question, which is the most appropriate and honest response."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response B correctly handles the ambiguity of the user's message by asking for clarification rather than assuming a problem, making it far more intent-accurate and genuinely useful."
+  },
+  {
+    "prompt_id": "P031",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but gives generic advice without actually explaining how to restart the router."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 2,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Garbled formal Hindi with nonsensical content, appears to be a broken/hallucinated response with truncated text."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A, despite being somewhat generic, at least communicates naturally in Hinglish and gives partially relevant advice, while Response B is a broken, incoherent response in overly formal Hindi."
+  },
+  {
+    "prompt_id": "P031",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Mostly formal Hindi with some English terms, feels like a translated response rather than natural Hinglish, but content is solid and thorough."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone and friendly vibe, but the advice is vague, slightly off-track (wrong password mention is irrelevant), and lacks actionable steps."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite its formal register, Response A provides genuinely useful and structured troubleshooting steps that actually address the slow WiFi issue, making it more helpful overall than B's friendly but shallow advice."
+  },
+  {
+    "prompt_id": "P031",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Pure formal Hindi with no code-switching, reads like a translated tech manual rather than a natural Hinglish conversation."
+    },
+    "scores_b": {
+      "register": 5,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish tone and friendly vibe but the content is vague and slightly off-track, mentioning 'repair shop' and 'wrong password' which are irrelevant to the user's slow WiFi issue."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite its unnatural register, Response A provides substantially more accurate and useful troubleshooting content that actually addresses the slow WiFi problem, making it more helpful overall."
+  },
+  {
+    "prompt_id": "P032",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 4,
+      "brief_note": "Sounds natural Hinglish with Indian references (Zomato, chai, Bangalore) but completely misses the user's question — they're asking about whether they should go to office when sick (cold mausam), not for lifestyle advice."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Formal Hindi that is incoherent, grammatically broken, and doesn't address the question at all — appears to be a hallucinated or garbled response."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Despite misinterpreting the intent, Response A at least sounds like natural Hinglish with relevant Indian cultural references, while Response B is incoherent formal Hindi that fails on every dimension."
+  },
+  {
+    "prompt_id": "P032",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 4,
+      "brief_note": "Decent Hinglish vibe with Indian references (Zomato, chai, Bangalore) but completely misreads the intent — user is asking about being sick/cold, not cold weather, and the advice is tangential and unhelpful."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly interprets 'cold' as illness and gives practical advice about health, remote work, and talking to supervisor, though the tone is slightly formal and lacks natural Hinglish flow."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B correctly understands that the user has a cold (illness) and gives genuinely useful, relevant advice, while Response A misreads the context entirely and offers unhelpful suggestions."
+  },
+  {
+    "prompt_id": "P032",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 4,
+      "brief_note": "Casual Hinglish with good Indian references (Zomato, chai) but completely misreads the intent — user is asking about going to office during cold weather, not whether they're sick, and the advice is vague/irrelevant."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly addresses the dilemma of going to office while unwell, gives practical advice about WFH and rest, but feels slightly formal and lacks natural Hinglish flow."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response B actually addresses the user's real concern — whether to go to office while sick — with practical, actionable advice, whereas Response A gives irrelevant suggestions despite better informal tone."
+  },
+  {
+    "prompt_id": "P033",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Incoherent, garbled Hindi that doesn't address the refund question at all and reads like a broken translation."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but gives generic advice without specifying actual refund timelines (5-7 days for cards, etc.) or mentioning Indian airlines/booking platforms like MakeMyTrip or IndiGo."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B is coherent, uses natural Hinglish, and gives at least actionable advice, while Response A is completely incoherent and useless."
+  },
+  {
+    "prompt_id": "P033",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Purely formal Hindi, reads like a translated government document rather than a Hinglish conversation, though content is reasonably structured and useful."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone and friendly vibe, but the actual advice is vague and doesn't give concrete refund timelines or actionable steps the user asked for."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite poor register, Response A provides more concrete and actionable information (timelines, steps, what to check) that actually addresses the user's refund question, whereas Response B sounds natural but is too vague to be genuinely helpful."
+  },
+  {
+    "prompt_id": "P033",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Pure formal Hindi with structured bullet points — sounds like a government notice, not a Hinglish conversation."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but too vague and generic — doesn't mention typical refund timelines (7-10 days), specific platforms like MakeMyTrip/IndiGo, or actionable next steps."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite poor register, Response A provides actually useful and accurate information (timelines, steps, channels) that addresses the user's practical concern, whereas Response B sounds natural but offers almost no concrete help."
+  },
+  {
+    "prompt_id": "P034",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Completely garbled formal Hindi with nonsensical content, doesn't address the water bill complaint at all and appears to be about income/costs instead."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone that correctly addresses how to raise a complaint, though advice is somewhat generic without mentioning specific Indian water utility portals like Jal Jeevan Mission or city-specific helplines."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B is clearly superior as it actually answers the question in natural Hinglish, while Response A is incoherent gibberish that has nothing to do with the user's water bill complaint."
+  },
+  {
+    "prompt_id": "P034",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but too vague — no concrete steps like Jal Board helpline numbers or online portals mentioned."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Pure formal Hindi with bullet points — completely misses the Hinglish register of the user, and the response cuts off mid-point."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Despite being vague on specifics, Response A at least matches the user's Hinglish register and tone, making it more appropriate for the conversational context than Response B's formal Hindi essay format."
+  },
+  {
+    "prompt_id": "P034",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Pure formal Hindi throughout with no Hinglish code-switching at all, reads like a government circular rather than a helpful friend's advice."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 2,
+      "brief_note": "Natural Hinglish tone but advice is vague, generic, and lacks actionable Indian-specific steps like jal board portals, 1916 helpline, or municipal corporation options."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite poor register, Response A provides substantially more actionable and structured guidance (consumer forum, written complaint, local office visit) that actually helps the user resolve the issue, whereas B's advice is too vague to be practically useful."
+  },
+  {
+    "prompt_id": "P035",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Response is garbled, incoherent Hindi with nonsensical made-up words like 'जैमनीशन' and 'फ्रॉटला न्यूट्रल', making it completely useless."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone with friendly bhai-style advice, but gives generic tips rather than specifically recommending a structured muscle-gain gym plan."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B is coherent, natural Hinglish, and provides at least some relevant fitness advice, while Response A is completely incoherent gibberish."
+  },
+  {
+    "prompt_id": "P035",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Formal Hindi with markdown headers feels more like a Wikipedia article than a friend's advice, though the content on compound exercises, sets/reps, and diet is solid."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but gives generic vague advice without addressing any specific muscle gain plan, just says 'do cardio, lifting, eat protein, be consistent' without real structure."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite its formal register, Response A actually answers the question with actionable, accurate content on workout structure and diet for muscle gain, while Response B sounds more natural but provides no real plan or useful specifics."
+  },
+  {
+    "prompt_id": "P035",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but gives generic surface-level advice without addressing actual workout plans or structure for muscle gain."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Formal Hindi throughout with zero Hinglish code-switching, but the actual content on progressive overload, protein targets, and split routines is substantively useful despite being cut off."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite poor register, Response B's structured, accurate advice on progressive overload, compound exercises, and specific protein targets (1.6-2.2g/kg) genuinely addresses the muscle gain question, whereas Response A's casual tone masks its lack of actionable content."
+  },
+  {
+    "prompt_id": "P036",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Garbled formal Hindi with nonsensical content (\"जमीन की गंभीर दौड़\"), response is incomplete and completely fails to address the user's query naturally."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish, correctly addresses whether service center is needed by first suggesting DIY fixes, then advising service center if problem persists — practical and friendly tone."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B is clearly superior in every dimension — natural Hinglish register, correctly understands the user's question, gives actionable advice, while Response A is incoherent and incomplete."
+  },
+  {
+    "prompt_id": "P036",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish tone like a real friend giving practical advice, directly addresses whether service center is needed."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 2,
+      "brief_note": "Written in pure formal Hindi despite user writing in Hinglish, making it feel mismatched and overly structured."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A matches the user's casual Hinglish register perfectly and directly answers the service center question, while Response B ignores the user's language style entirely by responding in formal Hindi."
+  },
+  {
+    "prompt_id": "P036",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 5,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone like a friend chatting, directly addresses the service center question but tips are a bit generic."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 2,
+      "brief_note": "Pure formal Hindi with bullet points feels like a translated FAQ, completely misses the Hinglish register, and the response is even cut off mid-sentence."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A matches the user's casual Hinglish register naturally and directly answers whether a service center visit is needed, while Response B fails on register, feels robotic/formal, and is incomplete."
+  },
+  {
+    "prompt_id": "P037",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but misses the point — user wants to know how to CHECK if salary is credited, not how to escalate a complaint to customer support."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Completely incoherent response with garbled Hindi, meaningless phrases like 'विशेष सर्किट इन्केज', and truncated text — appears to be a hallucination or broken output."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A, despite partially missing the intent, at least provides a coherent and somewhat relevant suggestion in natural Hinglish, while Response B is completely unintelligible and useless."
+  },
+  {
+    "prompt_id": "P037",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Pure formal Hindi, sounds like a translated disclaimer rather than a natural Hinglish friend; gives basic direction but no practical steps."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone with friendly vibe, but focuses only on calling customer support rather than also mentioning self-check options like net banking, UPI apps (PhonePe/GPay), or SMS balance check which are the most common Indian methods."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B wins on register and approachability, feeling like a genuine Hinglish friend despite both responses being only partially helpful on content."
+  },
+  {
+    "prompt_id": "P037",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Formal Hindi throughout with no code-switching, reads like a translated document rather than a natural Hinglish conversation, though the advice is practical and multi-step."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "More natural Hinglish tone but gives vague, generic advice (just call bank customer support) and misses key self-check steps like net banking, UPI apps, or SMS alerts that Indians typically use first."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite poor register, Response A provides substantially more useful and complete advice covering HR, bank, online portal, and email checks, which better serves the user's actual need compared to Response B's overly generic 'just call the bank' suggestion."
+  },
+  {
+    "prompt_id": "P038",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Decent Hinglish with Aadhar card reference, but misses key renewal documents like address proof, old passport submission details, and self-attestation requirements."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Completely broken response with nonsensical Hindi, fabricated terms like 'reverzan', and no useful information whatsoever."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response A, despite being incomplete, at least answers in natural Hinglish with some correct information like Aadhar and passport copy, whereas Response B is incoherent gibberish."
+  },
+  {
+    "prompt_id": "P038",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Comprehensive and well-structured but slightly formal/stilted Hinglish rather than natural conversational code-switching."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "More natural Hinglish tone but content is incomplete and slightly inaccurate (mentioning visa letter as required is misleading)."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response A is more comprehensive and accurate in listing the actual required documents for Indian passport renewal, outweighing B's slightly more natural register but weaker and potentially misleading content."
+  },
+  {
+    "prompt_id": "P038",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Decent Hinglish tone but content is vague and misses key Indian-specific documents like Form 2, Aadhaar as address proof, and the Passport Seva portal process."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Comprehensive and accurate Indian passport renewal info with correct form number and official references, but written in pure formal Hindi with no Hinglish code-switching at all."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite poor register, Response B provides genuinely useful, accurate, and complete information specific to Indian passport renewal (Form No. 2, Passport Seva portal, Aadhaar, address proof distinctions) that actually helps the user, while Response A's friendly Hinglish tone is undermined by vague and incomplete content."
+  },
+  {
+    "prompt_id": "P039",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 2,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Response is broken, incomplete, uses awkward formal Hindi and makes no practical sense, cutting off mid-sentence."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish with Indian brands (Flipkart, Amazon, HP, Dell) but the random tiffin service mention is a hallucination/non-sequitur that hurts credibility."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B is coherent, in natural Hinglish, addresses the RAM upgrade question with practical advice and Indian context, despite a bizarre tiffin reference, whereas Response A is broken and unusable."
+  },
+  {
+    "prompt_id": "P039",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 2,
+      "brief_note": "Pure formal Hindi, reads like a translated document rather than a Hinglish conversation, though content is technically solid and covers relevant points like IDEs and SSD."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish tone with good Indian references (Flipkart, Amazon, HP, Dell) but content is generic and the random 'tiffin service' line is a bizarre hallucination that undermines credibility."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite poor register, Response A provides genuinely useful and structured advice covering RAM, IDEs, background processes, and SSD — all directly relevant to the user's coding hang issue — whereas Response B's hallucinated 'tiffin service' line and shallow content make it less trustworthy despite better Hinglish tone."
+  },
+  {
+    "prompt_id": "P039",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 4,
+      "brief_note": "Good Hinglish tone with Indian references like Flipkart/Amazon, but the random 'tiffin service' mention is completely irrelevant and hurts content quality."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Response is entirely in formal Hindi, completely ignoring the Hinglish register of the user, though the content itself is structured and accurate."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Despite the irrelevant tiffin remark, Response A at least matches the user's Hinglish register and includes Indian platform references, while Response B fails entirely on register by responding in formal Hindi to a Hinglish query."
+  },
+  {
+    "prompt_id": "P040",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 2,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Response is garbled, in formal Hindi, contains nonsensical/corrupted text and provides no useful dietary advice for a diabetic."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but advice is generic and slightly misses the medical nuance of diabetes management (e.g., fruit shakes and frozen yogurt can still spike sugar)."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B is coherent, uses natural Hinglish, and partially addresses the question, while Response A is completely broken and unusable."
+  },
+  {
+    "prompt_id": "P040",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Fully formal Hindi register, reads like a textbook not a WhatsApp friend, but content is solid and accurate."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 2,
+      "brief_note": "Hinglish register feels natural but the advice is vague and suggests frozen yogurt/fruit shakes which are not appropriate diabetic recommendations, and misses the medical seriousness."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite poor register, Response A gives medically accurate, structured, and genuinely useful dietary advice for a diabetic patient, whereas Response B's friendly tone is undermined by incorrect and potentially harmful suggestions like fruit shakes and frozen yogurt for a sugar patient."
+  },
+  {
+    "prompt_id": "P040",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 3,
+      "content_quality": 2,
+      "cultural_fit": 2,
+      "brief_note": "Attempts Hinglish but gives vague advice with Western references (frozen yogurt, berries) and doesn't seriously address diabetes diet management."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Fully formal Hindi, not Hinglish at all, but gives accurate and structured diabetes diet advice that directly addresses the question."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite failing on register, Response B's content is substantially more accurate, medically sound, and directly useful for managing a diabetic mother's diet, which is what the user actually needs."
+  },
+  {
+    "prompt_id": "P041",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 3,
+      "brief_note": "Accurate and detailed sentiment analysis but delivered in stiff, semi-formal English rather than natural Hinglish."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Sounds more like a natural Hinglish friend but adds an unnecessary tangent about reviews inspiring improvement, diluting the focused sentiment answer."
+    },
+    "winner_label": "qwen_3b_base",
+    "reason": "Despite weaker register, Response A directly and accurately answers the sentiment question with clear reasoning, whereas Response B drifts off-topic with an irrelevant philosophical note."
+  },
+  {
+    "prompt_id": "P041",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies negative sentiment with clear reasoning but feels slightly formal and Hindi-leaning rather than natural Hinglish."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "More natural Hinglish tone but dilutes the answer with an unnecessary tangent about reviews inspiring improvement, reducing content quality."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response A directly and accurately answers the sentiment analysis question with clear evidence from the review, making it more useful despite slightly stiffer register."
+  },
+  {
+    "prompt_id": "P041",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Direct aur sahi jawab diya but thoda dry hai, Hinglish feel kam hai."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 5,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone achha hai but extra filler about 'inspiration for improvement' unnecessary aur slightly generic hai."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response A directly aur accurately sentiment identify karta hai bina irrelevant padding ke, jo is simple sentiment analysis task ke liye better content quality deta hai."
+  },
+  {
+    "prompt_id": "P042",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 2,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Garbled response with wrong budget (₹7,000 instead of ₹70,000), poor Hinglish, and completely misses the actual question which was about identifying the intent of the message."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish and correctly identifies the intent (buying a laptop within budget), but pivots to offering help rather than cleanly stating the intent as asked."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B correctly identifies the intent in natural Hinglish and provides a useful answer, while Response A has factual errors, poor language, and fails to address the question properly."
+  },
+  {
+    "prompt_id": "P042",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but misses the point — user asked to identify the intent of the message, not to get laptop recommendations."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies and explains the intent of the message but uses overly formal Hindi ('vyakti', 'vikalp') that feels stiff and un-Hinglish."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B correctly addresses what the user actually asked — explaining the intent of the given message — while Response A misinterprets the task and jumps into laptop-buying mode."
+  },
+  {
+    "prompt_id": "P042",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish register but misses the actual question - user asked about intent analysis, not for laptop recommendations."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies the intent analysis task and answers it accurately, but the language is overly formal Hindi rather than natural Hinglish."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite formal register, Response B correctly addresses what the user actually asked (intent analysis) whereas Response A misunderstands and starts giving laptop buying advice."
+  },
+  {
+    "prompt_id": "P043",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misses the task — user asked to identify the intent of the message, but response gives irrelevant advice about talking to someone."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Correctly identifies the intent as checking account balance/incoming funds, but the language is broken, unnatural, and reads like poor machine translation."
+    },
+    "winner_label": "qwen_3b_base",
+    "reason": "Despite very poor register, Response B actually addresses the user's request by correctly identifying the intent of the message, whereas Response A completely ignores the task."
+  },
+  {
+    "prompt_id": "P043",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies the intent but response is overly formal Hindi, not natural Hinglish."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Sounds more natural but completely misunderstands the task — it gives irrelevant advice instead of identifying the message's intent."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite being written in formal Hindi rather than natural Hinglish, Response A correctly and clearly identifies the intent of the given message, which is the core task, while Response B fails entirely on intent accuracy."
+  },
+  {
+    "prompt_id": "P043",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies the intent but uses overly formal Hindi ('rashi', 'Vyakti') rather than natural Hinglish."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Sounds more natural in register but completely misunderstands the task — gives random advice instead of identifying the message's intent."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response A correctly and clearly addresses the user's actual question about the intent of the message, despite being more formal, while Response B is conversationally natural but fails entirely to answer what was asked."
+  },
+  {
+    "prompt_id": "P044",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misses the sentiment analysis task and outputs incoherent, hallucinated text that makes no sense."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 4,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Correctly identifies the negative sentiment in natural Hinglish, though could have been more precise by explicitly labeling it as 'negative sentiment'."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B actually addresses the sentiment analysis request correctly in natural Hinglish, while Response A is completely incoherent and irrelevant."
+  },
+  {
+    "prompt_id": "P044",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish tone but goes beyond sentiment analysis into unsolicited advice, slightly overshooting the user's simple request."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Directly and accurately answers the sentiment question but uses overly formal Hindi ('nishchit nafrat ya asantosh ko darshata hai') that feels stiff and unnatural for Hinglish."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite its formal register, Response B precisely answers what was asked — the sentiment — with clear reasoning, while Response A drifts into unnecessary recommendations instead of staying focused on the sentiment analysis task."
+  },
+  {
+    "prompt_id": "P044",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 5,
+      "intent_accuracy": 3,
+      "content_quality": 3,
+      "cultural_fit": 4,
+      "brief_note": "Natural Hinglish tone but goes beyond the simple sentiment analysis task by giving unsolicited shopping advice."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Accurately identifies the negative sentiment and reasons, but the language is formal Hindi rather than natural Hinglish."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite its more formal register, Response B directly and accurately answers the user's actual question about sentiment, which is the core intent, whereas Response A drifts off-topic with unnecessary advice."
+  },
+  {
+    "prompt_id": "P045",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies positive sentiment but explains it in formal English with slight misinterpretation of 'discharge' (likely referring to battery discharge, not job discharge)."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Sounds more natural Hinglish but badly misinterprets 'discharge' as someone being discharged from work/job rather than battery discharge, leading to a wrong sentiment analysis explanation."
+    },
+    "winner_label": "qwen_3b_base",
+    "reason": "Despite being more formal in register, Response A correctly identifies the positive sentiment and gets closer to the actual meaning (battery not discharging quickly = good performance), while Response B misinterprets the context entirely."
+  },
+  {
+    "prompt_id": "P045",
+    "label_a": "gpt_4o_mini",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 3,
+      "brief_note": "Clear, correct sentiment analysis with good Hinglish tone and accurate explanation that 'discharge nahi hota jaldi' means good battery life."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Misinterprets 'discharge nahi hota jaldi' as 'time pe discharge ho raha hai' which is the opposite meaning, making the content analysis wrong."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response A correctly interprets 'discharge nahi hota jaldi' as a positive battery-related feature, while Response B bizarrely misreads it as discharge happening on time, which is factually incorrect."
+  },
+  {
+    "prompt_id": "P045",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but badly misinterprets 'discharge' as medical/hospital context instead of battery discharge, leading to a wrong and confused answer."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 2,
+      "brief_note": "Correctly identifies positive sentiment and understands 'jaldi discharge nahi hota' as battery performance, but the response is in stiff formal Hindi, not Hinglish at all."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite poor register, Response B correctly understands the review is about a product (likely a battery/phone) and accurately identifies the positive sentiment, whereas Response A hilariously misreads the context and gives a wrong answer."
+  },
+  {
+    "prompt_id": "P046",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Completely misunderstands the question — user asked about the intent of a message, not for Bollywood news itself, and response hallucinates a 'positive vibe' interpretation."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies the meta-task of analyzing message intent and classifies it accurately as information retrieval, though the register is formal English rather than Hinglish."
+    },
+    "winner_label": "qwen_3b_base",
+    "reason": "Response B correctly addresses the actual question about message intent analysis, while Response A completely misinterprets the task and provides an irrelevant answer."
+  },
+  {
+    "prompt_id": "P046",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Completely misses the point — user asked to analyze the intent of a message, but response treats it as if the user sent that message themselves and gives an unrelated reply."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies and explains the intent of the given message, though the language is more formal Hindi than natural Hinglish."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B correctly addresses what the user actually asked — the intent behind the given message — while Response A completely misinterprets the task."
+  },
+  {
+    "prompt_id": "P046",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies the intent but uses overly formal Hindi rather than natural Hinglish."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Sounds more conversational but completely misunderstands the question, fabricating a 'positive vibe' interpretation instead of identifying the actual intent."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite being in formal Hindi rather than Hinglish, Response A correctly identifies the actual intent of the message, which is what the user was asking about, while Response B fails completely on intent accuracy."
+  },
+  {
+    "prompt_id": "P047",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Response is entirely in French, completely unusable for a Hinglish user, and confuses butter with margarine."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish register but misses the actual intent — user asked what the *intent* of the message is, not for ghee vs butter advice."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Response B at least attempts the topic in natural Hinglish and is usable, whereas Response A is entirely in French and completely off-base."
+  },
+  {
+    "prompt_id": "P047",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 1,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Completely missed the intent - user asked about the INTENT of the message, not for ghee vs butter advice."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies the intent analysis task but responds in overly formal Hindi, not Hinglish at all."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite poor register, Response B actually answers what was asked (intent of the message) while Response A completely ignores the meta-question and gives irrelevant ghee/butter advice."
+  },
+  {
+    "prompt_id": "P047",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Completely misunderstood the task — user asked about the intent of the message, not for ghee vs butter advice."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies the intent (seeking advice/recommendation between two choices) though the language is more formal Hindi than Hinglish."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response B correctly answers what was actually asked — the intent of the message — while Response A completely ignores the meta-question and gives unsolicited ghee/butter advice."
+  },
+  {
+    "prompt_id": "P048",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 1,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 1,
+      "brief_note": "Completely incoherent response with made-up words and no logical connection to the question about message intent."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 2,
+      "brief_note": "Somewhat Hinglish but misinterprets the task — user asked for the intent of the message (weather inquiry), not emotional analysis of a person's mood."
+    },
+    "winner_label": "qwen_3b_finetuned",
+    "reason": "Despite B's misinterpretation, it at least produces coherent language and a somewhat related response, while A is completely garbled and meaningless."
+  },
+  {
+    "prompt_id": "P048",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 3,
+      "brief_note": "Completely misinterprets the task — instead of analyzing the message's intent, it gives irrelevant emotional advice about the sender's mood."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies the intent (seeking weather/rain info) but uses overly formal Hindi rather than natural Hinglish."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B actually answers the question asked — what is the intent of the message — while Response A goes completely off-track with irrelevant emotional interpretation."
+  },
+  {
+    "prompt_id": "P048",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 3,
+      "brief_note": "Correctly identifies the intent as seeking weather/rain information, though register leans slightly formal Hindi."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misinterprets the intent, treating a simple weather inquiry as an emotional/mood issue rather than a request for weather information."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response A correctly identifies that the message is about seeking weather/rain update information, while Response B wildly misinterprets it as an emotional frustration issue."
+  },
+  {
+    "prompt_id": "P049",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "qwen_3b_base",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misunderstands the message, fabricating a complaint about music/albums that has nothing to do with the city comparison question."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Correctly identifies the intent as a city comparison for living, and provides relevant Indian city context, though in formal English rather than Hinglish."
+    },
+    "winner_label": "qwen_3b_base",
+    "reason": "Response B correctly identifies the intent of the message and provides useful, accurate Indian context, while Response A completely misreads the message and gives an irrelevant answer."
+  },
+  {
+    "prompt_id": "P049",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misidentifies the intent as a music complaint, totally unrelated to the actual message about cities."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 4,
+      "brief_note": "Correctly identifies the intent as comparing Mumbai, Delhi, and Bangalore for livability, though language is slightly formal Hindi rather than casual Hinglish."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Response B accurately addresses the actual intent of the message while Response A hallucinated a completely irrelevant interpretation about music complaints."
+  },
+  {
+    "prompt_id": "P049",
+    "label_a": "gpt_4o",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 4,
+      "brief_note": "Correctly identifies the intent as a city comparison for living, but language is overly formal Hindi rather than natural Hinglish."
+    },
+    "scores_b": {
+      "register": 3,
+      "intent_accuracy": 1,
+      "content_quality": 1,
+      "cultural_fit": 2,
+      "brief_note": "Completely misidentifies the intent as a complaint about music/album, making no sense in context."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Response A correctly understands and addresses the actual intent of the message despite being in formal Hindi, while Response B halluccinates an entirely wrong interpretation about music complaints."
+  },
+  {
+    "prompt_id": "P049",
+    "label_a": "qwen_3b_base",
+    "label_b": "qwen_3b_finetuned",
+    "scores_a": {
+      "register": 2,
+      "intent_accuracy": 5,
+      "content_quality": 4,
+      "cultural_fit": 3,
+      "brief_note": "Clearly identifies the intent as a request to change the song, but the format is very formal/English with markdown headers, not natural Hinglish."
+    },
+    "scores_b": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Sounds more like natural Hinglish but misinterprets the task — user asked about the intent of the message, not advice on how to respond to it."
+    },
+    "winner_label": "qwen_3b_base",
+    "reason": "Despite its formal English register, Response A correctly and clearly identifies the intent of the given message, which is the core task the user asked for."
+  },
+  {
+    "prompt_id": "P049",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o_mini",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Natural Hinglish tone but misses the point — overcomplicates a simple intent analysis by adding unnecessary advice about mood and feedback."
+    },
+    "scores_b": {
+      "register": 2,
+      "intent_accuracy": 4,
+      "content_quality": 3,
+      "cultural_fit": 2,
+      "brief_note": "Correctly identifies the intent but uses overly formal Hindi ('ninda', 'nafrat ka izhar', 'vyakt') that sounds stiff and unnatural for casual Hinglish."
+    },
+    "winner_label": "gpt_4o_mini",
+    "reason": "Despite its formal register, Response B actually answers the user's question about intent accurately, while Response A drifts into irrelevant advice without clearly stating the intent."
+  },
+  {
+    "prompt_id": "P049",
+    "label_a": "qwen_3b_finetuned",
+    "label_b": "gpt_4o",
+    "scores_a": {
+      "register": 4,
+      "intent_accuracy": 2,
+      "content_quality": 2,
+      "cultural_fit": 3,
+      "brief_note": "Hinglish register is decent but it overcomplicates the intent analysis by adding unnecessary speculation about mood and feedback instead of directly stating the simple intent."
+    },
+    "scores_b": {
+      "register": 1,
+      "intent_accuracy": 5,
+      "content_quality": 5,
+      "cultural_fit": 3,
+      "brief_note": "Accurately and clearly identifies the intent but uses formal Hindi ('vyakti', 'santusht', 'maqsad') which feels stiff and unnatural for a Hinglish context."
+    },
+    "winner_label": "gpt_4o",
+    "reason": "Despite its formal register, Response B correctly and concisely identifies the actual intent of the message, whereas Response A misinterprets it with unnecessary speculation."
+  }
+]
