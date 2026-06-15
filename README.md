@@ -1,6 +1,8 @@
 # Hinglish-Assistant
 
-Fine-tuned Qwen2.5-3B for natural code-mixed Hindi-English (Hinglish) conversation. Matches GPT-4o-mini on Hinglish register quality at <1/30th serving cost.
+Fine-tuned Qwen2.5-3B for natural code-mixed Hindi-English (Hinglish) conversation. 
+Matches GPT-4o-mini on Hinglish register quality at 1.5–3.4× lower serving cost 
+(measured across cloud GPU pricing tiers, June 2026).
 
 🤗 **Model:** [DSMJ910/qwen2.5-3b-hinglish-lora](https://huggingface.co/DSMJ910/qwen2.5-3b-hinglish-lora)  
 🤗 **Dataset:** [DSMJ910/hinglish-instruct-10k](https://huggingface.co/datasets/DSMJ910/hinglish-instruct-10k)
